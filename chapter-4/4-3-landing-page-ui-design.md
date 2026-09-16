@@ -12,6 +12,13 @@ The wireframes for CryoVigil were designed to establish a clear hierarchy of con
 
 <img src="../front-matter/assets/landing-wireframe.png" alt="CryoVigil Landing Page Wireframe">
 
-### 4.3.2. Landing Page Mockups
+### 4.3.2. Landing Page Mock-up
 
-...
+The transition to the high-fidelity mock-up integrates CryoVigil's Design System, carefully applying the established visual identity to evoke technological professionalism and reliability.
+
+*   **Visual Identity & Branding:** Turquoise green is applied strategically to primary buttons, checkmarks, and active indicators to transmit safety, stability, and trust. The CryoVigil logo is prominently placed in the persistent header and the footer alongside the brand message, "Precision in every analysis. Protecting the future of scientific research".
+*   **Typography:** We utilized the **Plus Jakarta Sans** typeface across all landing page elements. Its clean, sans-serif design ensures high legibility for technical descriptions and pricing details, maintaining a balanced and professional appearance.
+*   **High-Fidelity Elements:** To build immediate trust, realistic UI snapshots of the CryoVigil dashboard are embedded directly into the landing page. These visuals allow prospects to preview the platform's capabilities before converting, specifically highlighting sections like "Seamless Integration with Your Lab" and "Audit-Ready Compliance".
+*   **Clear Value Delivery:** The interface explicitly highlights the three pillars of the platform: "Real-time Alerts," "Compliance Reporting," and a "Centralised Dashboard," paired with customized iconography to enhance scannability. 
+
+<img src="../front-matter/assets/landing-mockup.png" alt="CryoVigil Landing Page Mock-up">
