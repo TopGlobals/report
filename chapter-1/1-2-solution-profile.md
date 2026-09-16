@@ -70,20 +70,30 @@ for sample searching, and technical response times to infrastructure failures re
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-- **We believe we will achieve** ...<br>
-	**If** ...<br>
-	**Attain** ...<br>
-	**With** ...
+- **We believe we will achieve** an annual customer retention rate of over 90%<br>
+  **If** laboratory coordinators and bioclinical staff<br>
+  **Attain** peace of mind and instant 24/7 visibility of their infrastructure<br>
+  **With** the Unified SPA Dashboard (displaying RFID mapping and thermal graphs).
 
-- **We believe we will achieve** ...<br>
-  **If** ...<br>
-  **Attain** ...<br>
-  **With** ...
+- **We believe we will achieve** a 95% reduction in biological inventory waste and a 50% reduction in unnecessary technical dispatches<br>
+  **If** clinical staff and maintenance technicians<br>
+  **Attain** the ability to anticipate failures and remotely diagnose the exact location and nature of an anomaly<br>
+  **With** the Differentiated Alert Engine (push/email notifications crossed by threshold deviations and incorrect RFID location).
 
-- **We believe we will achieve** ...<br>
-  **If** ...<br>
-  **Attain** ...<br>
-  **With** ...
+- **We believe we will achieve** a 60% decrease in quality management operational costs<br>
+  **If** biologists and chemists<br>
+  **Attain** the total elimination of manual logbooks and audit-related stress<br>
+  **With** the Automated PDF Report Module.
+
+- **We believe we will achieve** a 100% success rate in traceability audits for our clients<br>
+  **If** quality managers and regulatory auditors<br>
+  **Attain** absolute trust in the irrefutable integrity of the historical temperature and location records<br>
+  **With** the Immutable Cloud Database Architecture.
+
+- **We believe we will achieve** a reduction in training time to less than 2 hours per laboratory<br>
+  **If** healthcare personnel<br>
+  **Attain** an immediate learning curve without depending on the IT department<br>
+  **With** the Native Guided Onboarding Flow integrated into the web application.
 
 #### 1.2.2.4. Lean UX Canvas
 
