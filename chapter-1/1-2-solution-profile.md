@@ -23,16 +23,17 @@ high risk of misdiagnosis.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-- **Problem Statement 1**:
-
-The current state of (the domain we are working in) has focused mainly on (these
-customer segments, these pain points, these workflows, etc.).
-What existing products/services fail to address is (this gap or change in the
-marketplace).
-Our product/service will address this gap by (this product strategy or approach).
-Our initial focus will be (this audience segment).
-We’ll know we are successful when we see (these measurable behaviors in our
-target audience).
+The current state of **bioclinical storage management** has focused mainly on **large hospitals with corporate budgets, 
+leaving medium-sized clinics struggling with physical manual records, undetected thermal excursions, and sample loss 
+due to disorganization**.
+What existing products/services fail to address is **the need for an accessible, hardware-agnostic software platform 
+that combines exact location traceability (RFID) with thermal monitoring in a single interface oriented to the daily 
+clinical workflow**.
+Our product/service will address this gap by **providing a SaaS web application focused purely on data visualization, 
+cross-preventive alerts (location/temperature), and automated regulatory reporting**.
+Our initial focus will be **laboratory personnel and maintenance technicians in medium-sized clinics and hospitals**.
+We’ll know we are successful when we see **a 90% reduction in inventory disposal, daily platform adoption by the staff 
+for sample searching, and technical response times to infrastructure failures reduced to less than 15 minutes**.
 
 #### 1.2.2.2. Lean UX Assumptions
 
