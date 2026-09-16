@@ -33,5 +33,28 @@ La identidad visual emplea principalmente el verde turquesa como color represent
 
 ### 4.1.2. Web Style Guidelines
 
+Esta sección define las pautas de diseño utilizadas para la interfaz web de CryoVigil, tomando como referencia los wireframes y mockups desarrollados para las principales funcionalidades de la plataforma.
+
+**Layout**
+
+El diseño de la interfaz web de CryoVigil se basa en una estructura organizada mediante una barra lateral de navegación fija y un área principal destinada a la visualización y gestión de la información. Esta distribución permite mantener una navegación consistente entre las diferentes secciones de la plataforma y facilita el acceso a las funcionalidades principales.
+
+La barra lateral se encuentra ubicada en el lado izquierdo de la interfaz y contiene las opciones principales de navegación:
+
+- Dashboard 
+- Laboratories 
+- History 
+- Alerts 
+- Reports 
+- Settings
+
+La opción activa se diferencia visualmente mediante un fondo verde claro y elementos en color verde turquesa, permitiendo al usuario identificar fácilmente la sección en la que se encuentra.
+
+El área principal de cada pantalla contiene un encabezado con el título y una breve descripción de la sección, acompañado de un buscador ubicado en la parte superior derecha. Debajo de este encabezado, la información se organiza mediante tarjetas, listas, gráficos, indicadores y formularios, dependiendo de la funcionalidad correspondiente.
+
+**Responsive Design**
+
+La interfaz web de CryoVigil está diseñada considerando la necesidad de adaptarse a diferentes tamaños de pantalla. La estructura visual busca mantener la accesibilidad y legibilidad de la información, reorganizando los componentes de acuerdo con el espacio disponible. 
+
 
  
