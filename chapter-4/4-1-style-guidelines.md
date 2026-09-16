@@ -12,6 +12,25 @@ El verde se utiliza principalmente para representar estados normales, activos, r
 
 <img src="assets/color-palette.png">
 
+**Tipografia**
+
+La tipografía seleccionada para CryoVigil es Plus Jakarta Sans, una fuente sans-serif moderna que se caracteriza por su apariencia limpia, equilibrada y profesional. Su diseño permite mantener una adecuada legibilidad en diferentes tamaños, facilitando la visualización de información relacionada con laboratorios, sensores, métricas y alertas dentro de la plataforma.
+
+Para establecer una jerarquía visual clara, se utilizan diferentes pesos tipográficos de Plus Jakarta Sans según la función del contenido:
+
+- Regular: utilizado para descripciones, textos informativos y contenido secundario.
+- Medium: utilizado en etiquetas, opciones de navegación, filtros y elementos de apoyo.
+- Semi Bold: utilizado en nombres de laboratorios, títulos de secciones y componentes que requieren mayor énfasis.
+- Bold: utilizado en títulos principales, valores destacados, métricas y elementos de mayor jerarquía visual.
+
+**Brading**
+
+El nombre CryoVigil representa la identidad de la plataforma y hace referencia a la supervisión continua de las condiciones de los laboratorios. El branding utiliza un isotipo relacionado con un contenedor o elemento de laboratorio, acompañado del nombre CryoVigil.
+
+La identidad visual emplea principalmente el verde turquesa como color representativo, asociado con seguridad, tecnología y confiabilidad. Este color se mantiene de manera consistente en elementos como el logotipo, botones principales, estados activos e indicadores de funcionamiento.
+
+<img src="assets/Logo.png">
+
 ### 4.1.2. Web Style Guidelines
 
 
