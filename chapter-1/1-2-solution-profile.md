@@ -38,29 +38,35 @@ for sample searching, and technical response times to infrastructure failures re
 #### 1.2.2.2. Lean UX Assumptions
 
 - **Business Assumptions**:
-	- ...
-	- ...
-	- ...
+	- We believe that medium-sized clinics will pay a recurring SaaS subscription if we demonstrate a Return on Investment (ROI) based on preventing the loss of just one batch of expensive reagents.
+	- We believe that offering a modern software layer decoupled from proprietary hardware will lower the barrier to entry and be our main competitive advantage.
+	- We believe the increasing strictness of health regulatory agencies (e.g., ISO 15189 audits) will act as the primary sales driver for our software.
+	- We believe that ease of use and a modern UI are vital to avoid operational resistance in traditional clinical environments.
 
 - **Business Outcome Assumptions**:
-	- ...
-	- ...
-	- ...
+	- We believe we will reduce biological inventory waste by 95% during the first year of implementation.
+	- We believe we will decrease quality management operational costs in clinics by 60% by automating data collection.
+	- We believe we will achieve an annual customer retention rate of over 90% due to the critical nature of the data hosted on our platform.
+	- We believe we will reduce unnecessary technical support dispatch costs by 50%.
 
 - **User Assumptions**:
-	- ...
-	- ...
-	- ...
+	- We believe that biologists and chemists value data precision and the immediacy to find misplaced samples over any other functionality.
+	- We believe that maintenance technicians suffer high stress when traveling to clinical sites only to discover that a critical thermal alert was just a door left open by a user.
+	- We believe users have the baseline digital competence to operate modern web interfaces but lack the time for extensive training manuals.
+	- We believe the staff feels profound distrust towards physical logbooks due to their inherent margin of human error.
 
 - **User Outcome and Benefit Assumptions**:
-	- ...
-	- ...
-	- ...
+	- We believe the bioclinical staff will eliminate audit-related stress by having immutable digital historical records ready to export.
+	- We believe the technical staff will optimize their maintenance routes by diagnosing failures remotely with contextualized data.
+	- We believe users will achieve an immediate adoption curve, freeing up hours of their week to focus purely on analytical and clinical tasks.
+	- We believe laboratory coordinators will attain peace of mind knowing they have 24/7 visibility of their infrastructure from their smartphones.
 
 - **Feature Assumptions**:
-	- ...
-	- ...
-	- ...
+	- We believe that a **Unified SPA Dashboard** (displaying RFID mapping and thermal graphs) is the best solution to centralize telemetry data.
+	- We believe that a **Differentiated Alert Engine** (push/email notifications crossed by threshold deviations and incorrect RFID location) will prevent irreversible damage.
+	- We believe that an **Automated PDF Report Module** will solve the pain of manual documentation and audit compliance.
+	- We believe that an **Immutable Cloud Database Architecture** will provide the data integrity required by regulatory entities.
+	- We believe that a **Native Guided Onboarding Flow** within the application will allow autonomous adoption without IT department intervention.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
