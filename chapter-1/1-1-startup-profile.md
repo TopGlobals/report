@@ -36,35 +36,35 @@ technical complexities.
 	<tbody>
 		<tr>
 			<td><img src="./assets/member1.png" alt="Member 1" width="100" height="auto"></td>
-			<td>...</td>
+			<td>Arizabal Condori, Jean Niels</td>
 			<td>...</td>
 			<td>...</td>
 			<td>...</td>
 		</tr>
 		<tr>
 			<td><img src="./assets/member2.png" alt="Member 2" width="100" height="auto"></td>
-			<td>...</td>
+			<td>Homola, Tomas</td>
 			<td>...</td>
 			<td>...</td>
 			<td>...</td>
 		</tr>
 		<tr>
 			<td><img src="./assets/member3.png" alt="Member 3" width="100" height="auto"></td>
-			<td>...</td>
+			<td>Linares Rodriguez, Franco Orlando*</td>
 			<td>...</td>
 			<td>...</td>
 			<td>...</td>
 		</tr>
 		<tr>
 			<td><img src="./assets/member4.png" alt="Member 4" width="100" height="auto"></td>
-			<td>...</td>
+			<td>Padilla Merino, Mauricio Jared</td>
 			<td>...</td>
 			<td>...</td>
 			<td>...</td>
 		</tr>
 		<tr>
 			<td><img src="./assets/member5.png" alt="Member 5" width="100" height="auto"></td>
-			<td>...</td>
+			<td>Reyes Munoz, Joaquin Leonardo</td>
 			<td>...</td>
 			<td>...</td>
 			<td>...</td>
