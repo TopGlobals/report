@@ -27,7 +27,7 @@
 
 ### 2.2.2. Interview Logs
 
-**Segment 1**
+**Segment 1, Bioclinical and Laboratory Personnel**
 
 **Interview URL:** [Segment 1 Interviews](https://example.com/interviews1)
 
@@ -35,49 +35,84 @@
 
 <img src="./assets/segment1-interviewee1.png" alt="Interviewee 1" style="max-width: 50%; height: auto;">
 
-- **Name**: ...
-- **Age**: ...
-- **Residency**: ...
+- **Name**: Abdul Muchica
+- **Age**: 30 years old
+- **Residency**: Puno
 - **Starts at**: ...
 - **Duration**: ...
 
-...
+Abdul Muchica is a 30-year-old single biologist residing in Puno. He works as a bachelor's degree professional in a 
+private laboratory within the microbiology and clinical laboratory specialty, where he stands out for his punctuality 
+and high sense of responsibility in verifying the correct operation of equipment. During his workday, he uses an HP 
+laptop, an Honor 8X smartphone, a Samsung smartwatch to time processes, and browsers like Chrome, Firefox, and Edge. 
+In his work environment, he primarily uses Inmunolab brand equipment. His daily routine consists of analyzing blood 
+samples from recurring patients and manually recording the consumption of reagents and other logistical supplies, 
+such as gloves and paper, in a logbook. One of his biggest problems occurs when refrigerator temperatures change 
+suddenly without warning. This situation causes him anxiety, as he fears that if he tries to manipulate the equipment 
+to fix it, he will be blamed for the failure and face financial deductions. He would like to use an application that 
+offers exactness and total security in monitoring. In the event of an adverse event, he expects to receive an alert 
+similar to a "beeper" that tells him exactly what happened, where it occurred, and what actions to take. His main work 
+frustrations are the stress caused by patients, fatigue, and low salaries, while his future goal is to pursue a 
+master's or doctoral degree.
 
-- **Brands**: ...
-- **Devices**: ...
-- **Browsers**: ...
+- **Brands**: Inmunolab
+- **Devices**: Laptop, Smartphone, Smartwatch
+- **Browsers**: Chrome, Firefox, Edge
 
 2. Interviewee 2
 
 <img src="./assets/segment1-interviewee2.png" alt="Interviewee 2" style="max-width: 50%; height: auto;">
 
-- **Name**: ...
-- **Age**: ...
-- **Residency**: ...
+- **Name**: Fernando Palomino
+- **Age**: 22
+- **Residency**: Puno
 - **Starts at**: ...
 - **Duration**: ...
 
-...
+Fernando Palomino is a 22-year-old single intern residing in Puno, who works in the microbiology area of the Manuel 
+Núñez Butrón Hospital. He defines himself as an active person who likes to get involved in his area, specializing in 
+microbiological cultures and agar preparation. To search for information quickly, he uses his mobile phone with the 
+Chrome browser, and reserves his laptop for filling out databases and reports. In the laboratory, he interacts with 
+refrigerators and incubators from the Termo, Eurotec and Biobase brands. His daily routine begins in a busy manner 
+dealing with pending tasks from the previous shift, verifying the data of incoming samples, and distributing them to 
+their respective areas. His biggest point of stress is the uncertainty of not knowing if someone stored materials 
+poorly or if the cold chain failed. He reports that occasionally, after shift changes, he has found light- and 
+heat-sensitive reagents left outside the refrigerator, which has caused him to waste time requesting replacements. 
+He demands an application that displays equipment temperatures in real-time, provides a location map of the samples, 
+and sends expiration alerts. If a reagent is stored incorrectly, he requires the notification to include the name of 
+the supply, its incorrect location, and the time it has been exposed to determine if it should be discarded. His main 
+goal is to finish his internship optimally and enter the workforce.
 
-- **Brands**: ...
-- **Devices**: ...
-- **Browsers**: ...
+- **Brands**: Termo, Eurotec, BioBase
+- **Devices**: Laptop, Smartphone
+- **Browsers**: Chrome
 
 3. Interviewee 3
 
 <img src="./assets/segment1-interviewee3.png" alt="Interviewee 3" style="max-width: 50%; height: auto;">
 
-- **Name**: ...
-- **Age**: ...
-- **Residency**: ...
+- **Name**: Gabriela Quispe
+- **Age**: 24
+- **Residency**: Puno
 - **Starts at**: ...
 - **Duration**: ...
 
-...
+Gabriela Quispe is a 24-year-old single microbiologist, based in Puno, with one year of experience in a private clinic 
+laboratory. She describes herself as a very organized person, a fundamental characteristic to manage the stress caused 
+by the high saturation of patients during her shifts. She uses the laboratory computer and occasionally her cell phone, 
+browsing exclusively using Chrome. She recognizes a wide range of equipment and supply brands, including Biobase, CBIO, 
+ICROMA, QCA, Wiener, Thermo Scientific, and Umbrella Genomic. Her work involves receiving samples and manually noting 
+inventory consumption in a notebook, deducting the reagents or kits used. She wastes a lot of time when her coworkers 
+relocate reagents to different refrigerators, forcing her to search and ask around for them. This wasted time generates 
+stress and anxiety for her due to the pressure from doctors and patients to obtain fast results. In addition, she is 
+frustrated by widespread disorganization and the constant risk of reagents expiring before being used. She requests an 
+application that has organizational templates to add reagents by area and make their location visible to all staff. 
+She wants to receive immediate alerts when someone moves a material, specifying what supply it is and where it was 
+relocated. Her professional goal is to expand the availability of complex analysis in Puno's laboratories.
 
-- **Brands**: ...
-- **Devices**: ...
-- **Browsers**: ...
+- **Brands**: Biobase, CBIO, ICROMA, QCA, Wiener, Thermo Scientific, Umbrella Genomic
+- **Devices**: PC, Smartphone
+- **Browsers**: Chrome
 
 **Segment 2**
 
