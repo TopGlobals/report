@@ -2,13 +2,13 @@
 
 ### 2.3.1. User Personas
 
-**Segment 1**
+**Segment 1: Bioclinical and Laboratory Personnel**
 
-<img src="./assets/segment1-user-persona.png" alt="User Persona 1" style="max-width: 100%; height: auto;">
+<img src="./assets/Gabriel%20Mendoza.png" alt="User Persona 1" style="max-width: 100%; height: auto;">
 
-**Segment 2**
+**Segment 2: Technical and Maintenance Personnel**
 
-<img src="./assets/segment2-user-persona.png" alt="User Persona 2" style="max-width: 100%; height: auto;">
+<img src="./assets/Marcelo%20Gonzales.png" alt="User Persona 2" style="max-width: 100%; height: auto;">
 
 ### 2.3.2. User Task Matrix
 
