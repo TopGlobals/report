@@ -112,16 +112,32 @@ relying on closed hardware ecosystems.
 
 - **SO Strategies**
 
-...
+*Penetration through Hyper-specialization in the Software Layer:* By crossing our main advantage (a hardware-agnostic 
+SPA architecture that combines RFID and temperature) with the vast underserved market of medium-sized clinics, the 
+main tactic will be to offer friction-free adoption. While the competition forces the purchase of expensive hardware 
+packages, CryoVigil will allow the digitization of traceability utilizing generic sensors and RFID tags. This 
+drastically reduces the economic barrier to entry, capturing a niche that currently relies on physical logbooks.
 
 - **WO Strategies**
 
-...
+*B2B Integration Technological Alliances:* To counter the lack of proprietary hardware and initial brand recognition, 
+the current market urgency for digitization will be leveraged. The tactic consists of forming alliances with local IoT 
+sensor and RFID system providers. CryoVigil will position itself as the "Premium" application layer that complements 
+the hardware of these distributors, utilizing their established channels to reach the end client, mitigating the 
+customer acquisition cost.
 
 - **ST Strategies**
 
-...
+*Differentiation through Unified Clinical Usability:* Facing the threat of healthcare sector distrust or competition 
+from generic platforms, the primary shield will be the User Experience (UX). The tactic is to design unique 
+cross-alerts: the platform not only warns if the temperature drops but also notifies if an RFID tag has been deposited 
+in the wrong thermal compartment. This level of clinical software specialization will make platforms like Monnit feel 
+unspecific for a biologist's rigorous audits.
 
 - **WT Strategies**
 
-...
+*Immutable Regulatory Compliance from Design:* To survive the distrust of a highly regulated sector towards a new 
+brand, the tactic relies on an unalterable architecture. The software layer will be designed exclusively according 
+to the formats required by regulatory bodies (e.g., ISO 15189). The automated generation of Compliance-Ready PDF 
+reports will serve as irrefutable proof of value, allowing for free pilot programs where CryoVigil demonstrates its 
+ability to pass official inspections without administrative effort.
