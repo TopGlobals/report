@@ -49,11 +49,11 @@ technical complexities.
 			<td>...</td>
 		</tr>
 		<tr>
-			<td><img src="./assets/member3.png" alt="Member 3" width="100" height="auto"></td>
-			<td>Linares Rodriguez, Franco Orlando*</td>
-			<td>...</td>
-			<td>...</td>
-			<td>...</td>
+			<td><img src="./assets/member3.jpg" alt="Member 3" width="100" height="auto"></td>
+			<td>Linares Rodriguez, Franco Orlando</td>
+			<td>U20241B645</td>
+			<td>Software Engineering</td>
+			<td>I am Franco Linares, a fifth-semester Software Engineering student. From the moment I chose my major, I knew I had made the right decision. Over the past three years, I have discovered my passion for programming—specifically in C++, the language I have focused on developing my skills in throughout my studies. I also have basic knowledge of HTML5, CSS3, and JavaScript, as well as experience with database query languages ​​like SQL. I consider myself respectful, supportive, hardworking, and a strong team player.</td>
 		</tr>
 		<tr>
 			<td><img src="./assets/member4.png" alt="Member 4" width="100" height="auto"></td>
