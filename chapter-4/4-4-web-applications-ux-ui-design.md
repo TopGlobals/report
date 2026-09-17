@@ -32,6 +32,18 @@
 
 <img src="assets/wireframe-5.jpg">
 
+**History**
+
+- **Description:** This screen displays the history of events related to the laboratories. To present this information, a timeline view was chosen, in which each event is sorted chronologically and accompanied by a summary of the event. Clicking on an event opens a panel on the right-hand side with detailed information about the event. Additionally, filters are included to make it easier to search for specific events.
+
+<img src="assets/wireframe-6.jpg">
+
+**New Lab**
+
+- **Description:** This screen displays a form for registering a new laboratory in the system. The form is divided into sections to make it easier to fill out, such as general laboratory information, systems, and sensors, among others.
+
+<img src="assets/wireframe-7.jpg">
+
 ### 4.4.2. Web Application Wire Flow Diagrams
 
 ...
