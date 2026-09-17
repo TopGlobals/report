@@ -37,16 +37,16 @@ technical complexities.
 		<tr>
 			<td><img src="./assets/member1.png" alt="Member 1" width="100" height="auto"></td>
 			<td>Arizabal Condori, Jean Niels</td>
-			<td>...</td>
-			<td>...</td>
-			<td>...</td>
+			<td>U201919096</td>
+			<td>Software Engineering</td>
+			<td>I am a Software Engineering student, I'm mainly interested in low level programming, particularly in systems programming and embedded systems. </td>
 		</tr>
 		<tr>
-			<td><img src="./assets/member2.png" alt="Member 2" width="100" height="auto"></td>
+			<td><img src="./assets/member2.jpeg" alt="Member 2" width="100" height="auto"></td>
 			<td>Homola, Tomas</td>
-			<td>...</td>
-			<td>...</td>
-			<td>...</td>
+			<td>U202623624</td>
+			<td>Software Engineering</td>
+			<td>I am a Software Engineering student at Masaryk University in the Czech Republic, currently on an exchange program at the Peruvian University of Applied Sciences (UPC) for the semester. I am interested in software product development across various fields, particularly in the medical sector and the application of Artificial Intelligence for image recognition. I also enjoy developing my own applications, aiming to continuously improve my skills in requirements elicitation, analysis, and management. Within the team, I seek to contribute my expertise in both requirements definition and user interface (UI) design, thereby strengthening my teamwork skills and helping ensure the project's success.</td>
 		</tr>
 		<tr>
 			<td><img src="./assets/member3.jpg" alt="Member 3" width="100" height="auto"></td>
@@ -56,18 +56,18 @@ technical complexities.
 			<td>I am Franco Linares, a fifth-semester Software Engineering student. From the moment I chose my major, I knew I had made the right decision. Over the past three years, I have discovered my passion for programming—specifically in C++, the language I have focused on developing my skills in throughout my studies. I also have basic knowledge of HTML5, CSS3, and JavaScript, as well as experience with database query languages ​​like SQL. I consider myself respectful, supportive, hardworking, and a strong team player.</td>
 		</tr>
 		<tr>
-			<td><img src="./assets/member4.png" alt="Member 4" width="100" height="auto"></td>
+			<td><img src="./assets/member4.jpeg" alt="Member 4" width="100" height="auto"></td>
 			<td>Padilla Merino, Mauricio Jared</td>
-			<td>...</td>
-			<td>...</td>
-			<td>...</td>
+			<td>U201911393</td>
+			<td>Software Engineering</td>
+			<td>I am a Software Engineering student currently in my fifth semester. I consider myself a dedicated individual who adapts easily to different teams and working styles. I focus on organizing project scope and delegating tasks to achieve our goals in the most efficient way possible.</td>
 		</tr>
 		<tr>
-			<td><img src="./assets/member5.png" alt="Member 5" width="100" height="auto"></td>
+			<td><img src="./assets/member5.jpeg" alt="Member 5" width="100" height="auto"></td>
 			<td>Reyes Munoz, Joaquin Leonardo</td>
-			<td>...</td>
-			<td>...</td>
-			<td>...</td>
+			<td>u202423262</td>
+			<td>Software Engineering</td>
+			<td>I consider myself a very patient, responsible, and dedicated person. I enjoy learning new things, solving problems, and working with others. I am always willing to improve my skills and face new challenges.</td>
 		</tr>
 	</tbody>
 </table>
