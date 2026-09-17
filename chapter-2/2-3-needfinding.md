@@ -77,20 +77,20 @@
 
 ### 2.3.3. User Journey Mapping
 
-**Segment 1**
+**Segment 1: Bioclinical and Laboratory Personnel**
 
 <img src="./assets/Gabriel%20Journey%20Map.png" alt="Journey Map 1" style="max-width: 100%; height: auto;">
 
-**Segment 2**
+**Segment 2: Technical and Maintenance Personnel**
 
 <img src="./assets/Marcelo%20Journey%20Map.png" alt="Journey Map 2" style="max-width: 100%; height: auto;">
 
 ### 2.3.4. Empathy Mapping
 
-**Segment 1**
+**Segment 1: Bioclinical and Laboratory Personnel**
 
-<img src="./assets/segment1-empathy-map.png" alt="Empathy Map 1" style="max-width: 100%; height: auto;">
+<img src="./assets/Gabriel%20Empathy%20map.png" alt="Empathy Map 1" style="max-width: 100%; height: auto;">
 
-**Segment 2**
+**Segment 2: Technical and Maintenance Personnel**
 
-<img src="./assets/segment2-empathy-map.png" alt="Empathy Map 2" style="max-width: 100%; height: auto;">
+<img src="./assets/Marcelo%20Empathy%20map.png" alt="Empathy Map 2" style="max-width: 100%; height: auto;">
