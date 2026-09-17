@@ -91,4 +91,14 @@
 
 ### 4.4.4. Web Application User Flow Diagrams
 
-...
+**Userflow 1**
+
+- **User Person:** Lab Supervisor
+- **User Goal:** As a lab supervisor, I would like to register a new lab in the system. To do so, I need to enter the lab's information and the details of its systems and sensors.
+- **Happy Path:** 
+  - The system displays a message indicating that the order was successfully created. 
+  - The new laboratory appears in the “Registered Laboratories” section.
+- **Unhappy Path:**
+  - The system displays an error message indicating that the order could not be created.
+
+<img src="assets/wireflow-1.jpg">
