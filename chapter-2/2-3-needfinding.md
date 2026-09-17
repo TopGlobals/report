@@ -79,11 +79,11 @@
 
 **Segment 1**
 
-<img src="./assets/segment1-journey-map.png" alt="Journey Map 1" style="max-width: 100%; height: auto;">
+<img src="./assets/Gabriel%20Journey%20Map.png" alt="Journey Map 1" style="max-width: 100%; height: auto;">
 
 **Segment 2**
 
-<img src="./assets/segment2-journey-map.png" alt="Journey Map 2" style="max-width: 100%; height: auto;">
+<img src="./assets/Marcelo%20Journey%20Map.png" alt="Journey Map 2" style="max-width: 100%; height: auto;">
 
 ### 2.3.4. Empathy Mapping
 
