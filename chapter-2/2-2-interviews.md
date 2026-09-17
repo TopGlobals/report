@@ -1,17 +1,29 @@
 ## 2.2. Interviews
 
 ### 2.2.1. Interviews Design
-**Segment 1 Questions:**
+**Segment 1, Bioclinical and Laboratory Personnel Questions:**
 
-1. Q1
-2. Q2
-3. Q3
+1. To begin, tell us a little about yourself: What is your name, age, marital status, and where do you reside?
+2. What is your profession, what position do you currently hold, and how long have you been working in this field?
+3. How would you describe yourself in your day-to-day work? What do you consider to be your strong points or main skills?
+4. What devices (cell phone, tablet, laptop, PC) do you use during the day, both at work and at home? Which browsers do you use the most? Is there any brand (technological, in your sector, or in general) that you consider a benchmark of quality and trust?
+5. Tell us what a normal day is like for you when you have to organize, store, or search for samples and reagents. What do you do, and which tasks do you repeat the most?
+6. Have you ever wasted time looking for an important sample, or discovered too late that something was stored in a place with the wrong conditions? Tell us what that experience was like and how it made you feel.
+7. If you had a screen on your computer or cell phone to help you control all this, what would you like to see on it to feel at peace that everything is in order?
+8. Imagine that someone on your team stores a reagent in the wrong compartment. How would you like the system to notify you? What exact information would you need to read in that alert to be able to solve it quickly?
+9. In summary, what stresses or frustrates you the most about controlling this inventory, and what goal or objective would you like to achieve in your work if you no longer had to worry about it?
 
-**Segment 2 Questions:**
+**Segment 2: Technical and Maintenance Personnel Questions:**
 
-1. Q1
-2. Q2
-3. Q3
+1. To begin, tell us a little about yourself: What is your name, age, marital status, and where do you reside?
+2. What is your profession, what position do you currently hold, and how long have you been working in this field?
+3. How would you describe yourself in your day-to-day work? What do you consider to be your strong points or main skills?
+4. What devices (cell phone, tablet, laptop, PC) do you use during the day, both at work and at home? Which browsers do you use the most? Is there any brand (technological, in your sector, or in general) that you consider a benchmark of quality and trust?
+5. What is your current process for finding out that equipment, such as a refrigerator or a storage area, is failing or needs maintenance?
+6. Tell us about the last time you had a technical emergency with cold storage equipment. What was the most complicated part when trying to diagnose the problem? Tell us what that experience was like and how it made you feel.
+7. When it is your turn to check the status of the laboratory infrastructure, if you could monitor it from a web application, what are the most urgent or important data you need to know?
+8. If an equipment starts to fail or the system detects that a compartment is not working well, how would you prefer to receive the software notification? What detail do you need that notification to have?
+9. In summary, what frustrates or stresses you the most when a technical problem is reported in the laboratories? What would be your ideal scenario to work more efficiently and peacefully?
 
 ### 2.2.2. Interview Logs
 
