@@ -46,7 +46,19 @@
 
 ### 4.4.2. Web Application Wire Flow Diagrams
 
-...
+**Wireflow 1**
+
+- **User Person:** Lab Supervisor
+- **User Goal:** As a lab supervisor, I would like to register a new lab in the system. To do so, I need to enter the lab's information and the details of its systems and sensors.
+
+<img src="assets/wireflow%205.png">
+
+**Wireflow 2**
+
+- **User Person:** Lab Supervisor
+- **User Goal:** As a lab supervisor, I would like to view detailed information about an existing lab.
+
+<img src="assets/wireflow%204.png">
 
 ### 4.4.3. Web Application Mockups
 
