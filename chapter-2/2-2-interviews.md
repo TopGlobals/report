@@ -114,7 +114,7 @@ relocated. Her professional goal is to expand the availability of complex analys
 - **Devices**: PC, Smartphone
 - **Browsers**: Chrome
 
-**Segment 2**
+**Segment 2: Technical and Maintenance Personnel**
 
 **Interview URL:** [Segment 2 Interviews](https://example.com/interviews2)
 
@@ -122,33 +122,53 @@ relocated. Her professional goal is to expand the availability of complex analys
 
 <img src="./assets/segment2-interviewee1.png" alt="Interviewee 1" style="max-width: 50%; height: auto;">
 
-- **Name**: ...
-- **Age**: ...
-- **Residency**: ...
+- **Name**: Fabrizio Palomino
+- **Age**: 24
+- **Residency**: Puno
 - **Starts at**: ...
 - **Duration**: ...
 
-...
+Fabrizio Palomino, 25 years old and single, resides in Puno and works as a CAS technician at the Manuel Núñez Butrón 
+Hospital. He works in the warehouse and culture media preparation area, highlighting his proactivity in taking on 
+lengthy tasks such as solidifying agars. He uses the laboratory computer with Chrome and Brave to validate exams, and 
+uses his cell phone very rarely. He is in charge of organizing biochemistry and hematology reagents in Termo and 
+Biobase brand refrigerators. Currently, his equipment only has digital screens that emit basic sounds if the door 
+opens or the temperature changes. He describes a serious incident in which an intern left the refrigerator door 
+improperly closed and the alarm did not activate; upon returning after four hours, the agar had not solidified, which 
+caused him great anger. His biggest frustration is the lack of automation in the public sector, which forces him to 
+continue using paper records. He needs an application that runs in the background on his cell phone, providing data on 
+the integrity of the cold chain, the order of the reagents, and their expiration dates. He expects automatic 
+notifications informing him if the equipment status is optimal or if he must go and manually reconfigure it.
 
-- **Brands**: ...
-- **Devices**: ...
-- **Browsers**: ...
+- **Brands**: Termo, Biobase
+- **Devices**: PC, Smartphone
+- **Browsers**: Chrome, Brave
 
 2. Interviewee 2
 
 <img src="./assets/segment2-interviewee2.png" alt="Interviewee 2" style="max-width: 50%; height: auto;">
 
-- **Name**: ...
-- **Age**: ...
-- **Residency**: ...
+- **Name**: Grisel Lima
+- **Age**: 25
+- **Residency**: Puno
 - **Starts at**: ...
 - **Duration**: ...
 
-...
+Grisel Lima is a 25-year-old single laboratory technician, residing in Puno, with two years of experience in the 
+hospital sector. Her main work strength is her resilience to endure daily work amidst a large influx and overload of 
+patients. During her shift, she uses a PC with Chrome and Edge for patient registration, and her personal cell phone 
+to communicate with her colleagues. Her work involves monitoring refrigerators and thermoses that rely on basic sound 
+and light alerts. She points out that this visual system forces staff to monitor constantly, and it is very easy for 
+failures to go unnoticed. Her greatest point of stress arises when equipment breaks down, as clinical staff are not 
+trained to intervene and depend entirely on maintenance engineers. This work stoppage provokes immediate complaints 
+from patients, generating a sense of powerlessness in the staff. She requests a cell phone application that establishes 
+temperatures in real-time so she does not have to physically approach and monitor the equipment from time to time. 
+Additionally, she demands personalized alerts similar to WhatsApp notifications at the top of the screen, guaranteeing 
+much more accessible and faster monitoring.
 
-- **Brands**: ...
-- **Devices**: ...
-- **Browsers**: ...
+- **Brands**: Termo, Biobase
+- **Devices**: PC, Smartphone
+- **Browsers**: Chrome, Edge
 
 3. Interviewee 3
 
