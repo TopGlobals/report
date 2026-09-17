@@ -29,7 +29,7 @@
 
 **Segment 1, Bioclinical and Laboratory Personnel**
 
-**Interview URL:** [Segment 1 Interviews](https://example.com/interviews1)
+**Interview URL:** [Segment 1 Interviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919096_upc_edu_pe/IQDAbtfBJ2yqQ4n8Bh6Mh7uJAc8qxe-e-bJM3l--LyJt7dY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VJWvw2)
 
 1. Interviewee 1
 
@@ -116,7 +116,7 @@ relocated. Her professional goal is to expand the availability of complex analys
 
 **Segment 2: Technical and Maintenance Personnel**
 
-**Interview URL:** [Segment 2 Interviews](https://example.com/interviews2)
+**Interview URL:** [Segment 2 Interviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919096_upc_edu_pe/IQAL8CDI7NjQSaeKuQKsIG4gAYPgXLsXI8H7giWUuzwtTy8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=excitg)
 
 1. Interviewee 1
 
