@@ -73,7 +73,7 @@ Fernando Palomino is a 22-year-old single intern residing in Puno, who works in 
 Núñez Butrón Hospital. He defines himself as an active person who likes to get involved in his area, specializing in 
 microbiological cultures and agar preparation. To search for information quickly, he uses his mobile phone with the 
 Chrome browser, and reserves his laptop for filling out databases and reports. In the laboratory, he interacts with 
-refrigerators and incubators from the Termo, Eurotec and Biobase brands. His daily routine begins in a busy manner 
+refrigerators and incubators from the Thermo, Eurotec and Biobase brands. His daily routine begins in a busy manner 
 dealing with pending tasks from the previous shift, verifying the data of incoming samples, and distributing them to 
 their respective areas. His biggest point of stress is the uncertainty of not knowing if someone stored materials 
 poorly or if the cold chain failed. He reports that occasionally, after shift changes, he has found light- and 
@@ -83,7 +83,7 @@ and sends expiration alerts. If a reagent is stored incorrectly, he requires the
 the supply, its incorrect location, and the time it has been exposed to determine if it should be discarded. His main 
 goal is to finish his internship optimally and enter the workforce.
 
-- **Brands**: Termo, Eurotec, BioBase
+- **Brands**: Thermo, Eurotec, BioBase
 - **Devices**: Laptop, Smartphone
 - **Browsers**: Chrome
 
@@ -131,7 +131,7 @@ relocated. Her professional goal is to expand the availability of complex analys
 Fabrizio Palomino, 25 years old and single, resides in Puno and works as a CAS technician at the Manuel Núñez Butrón 
 Hospital. He works in the warehouse and culture media preparation area, highlighting his proactivity in taking on 
 lengthy tasks such as solidifying agars. He uses the laboratory computer with Chrome and Brave to validate exams, and 
-uses his cell phone very rarely. He is in charge of organizing biochemistry and hematology reagents in Termo and 
+uses his cell phone very rarely. He is in charge of organizing biochemistry and hematology reagents in Thermo and 
 Biobase brand refrigerators. Currently, his equipment only has digital screens that emit basic sounds if the door 
 opens or the temperature changes. He describes a serious incident in which an intern left the refrigerator door 
 improperly closed and the alarm did not activate; upon returning after four hours, the agar had not solidified, which 
@@ -140,7 +140,7 @@ continue using paper records. He needs an application that runs in the backgroun
 the integrity of the cold chain, the order of the reagents, and their expiration dates. He expects automatic 
 notifications informing him if the equipment status is optimal or if he must go and manually reconfigure it.
 
-- **Brands**: Termo, Biobase
+- **Brands**: Thermo, Biobase
 - **Devices**: PC, Smartphone
 - **Browsers**: Chrome, Brave
 
@@ -166,7 +166,7 @@ temperatures in real-time so she does not have to physically approach and monito
 Additionally, she demands personalized alerts similar to WhatsApp notifications at the top of the screen, guaranteeing 
 much more accessible and faster monitoring.
 
-- **Brands**: Termo, Biobase
+- **Brands**: Thermo, Biobase
 - **Devices**: PC, Smartphone
 - **Browsers**: Chrome, Edge
 
