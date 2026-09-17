@@ -80,6 +80,14 @@
 
 <img src="assets/mockup-7.jpg">
 
+**Settings**
+
+- **Objective:** The Settings section of CryoVigil is designed to serve as the central hub for system customization and control. Its primary purpose is to enable lab managers and administrators to adjust the accuracy of measuring instruments, manage data security, and customize the user experience.
+
+<img src="assets/mockup-8.jpg">
+<img src="assets/mockup-9.jpg">
+<img src="assets/mockup-10.jpg">
+<img src="assets/mockup-11.jpg">
 
 ### 4.4.4. Web Application User Flow Diagrams
 
