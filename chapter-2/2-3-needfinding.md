@@ -16,9 +16,9 @@
 	<thead>
 		<tr>
 			<th></th>
-			<th>Segment 1</th>
+			<th>Segment 1: Bioclinical and Laboratory Personnel</th>
 			<th></th>
-			<th>Segment 2</th>
+			<th>Segment 2: Technical and Maintenance Personnel</th>
 			<th></th>
 		</tr>
 		<tr>
@@ -31,17 +31,45 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td>Task 1</td>
+			<td>Verify and distribute incoming biological samples</td>
 			<td>High</td>
 			<td>High</td>
-			<td>High</td>
-			<td>High</td>
+			<td>Low</td>
+			<td>Low</td>
 		</tr>
 		<tr>
-			<td>Task 2</td>
+			<td>Manually transcribe temperature readings into physical logbooks</td>
+			<td>High</td>
+			<td>High</td>
+			<td>Medium</td>
+			<td>Medium</td>
+		</tr>
+		<tr>
+			<td>Physically search for specific reagents across multiple cold storage units</td>
 			<td>High</td>
 			<td>High</td>
 			<td>High</td>
+			<td>Medium</td>
+		</tr>
+		<tr>
+			<td>Perform visual inspections of infrastructure (checking doors, local alarms)</td>
+			<td>Medium</td>
+			<td>High</td>
+			<td>High</td>
+			<td>Critical</td>
+		</tr>
+		<tr>
+			<td>Coordinate with external maintenance engineers during equipment failure</td>
+			<td>Low</td>
+			<td>Medium</td>
+			<td>Low</td>
+			<td>Critical</td>
+		</tr>
+		<tr>
+			<td>Compile monthly quality and incident reports for audits</td>
+			<td>Low</td>
+			<td>Critical</td>
+			<td>Low</td>
 			<td>High</td>
 		</tr>
 	</tbody>
