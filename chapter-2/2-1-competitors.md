@@ -23,10 +23,10 @@ relying on closed hardware ecosystems.
 	<tbody>
 		<tr>
 			<td><strong>Logo</strong></td>
-			<td>...</td>
-			<td>...</td>
-			<td>...</td>
-			<td>...</td>
+			<td><img src="./assets/CryoVigil.jpeg" alt="CryoVigil Logo" width="100" height="auto"></td>
+			<td><img src="./assets/smartsense.jpg" alt="SmartSense Logo" width="100" height="auto"></td>
+			<td><img src="./assets/senseanywhere.png" alt="SenseAnywhere Logo" width="100" height="auto"></td>
+			<td><img src="./assets/monnit.png" alt="Monnit Logo" width="100" height="auto"></td>
 		</tr>
 		<tr>
 			<td><strong>Overview</strong></td>
