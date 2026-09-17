@@ -2,44 +2,44 @@
 
 ## 4.1. Style Guidelines
 
-En esta sección se presentan los estándares que definen el formato y el diseño de la solución, asegurando la calidad en su implementación.
+This section outlines the standards that define the format and design of the solution, ensuring quality in its implementation.
 
 ### 4.1.1. General Style Guidelines
 
-La paleta de colores seleccionada para CryoVigil ha sido definida considerando principios de psicología del color, con el objetivo de transmitir seguridad, confianza, precisión y control, características fundamentales para una plataforma orientada al monitoreo de laboratorios en tiempo real. El verde turqués funciona como color principal debido a su asociación con la seguridad, estabilidad, equilibrio y confianza. Por ello, se utiliza en los botones principales, elementos interactivos y estados positivos, reforzando la percepción de un sistema confiable y bajo control.
+The color palette selected for CryoVigil was defined based on principles of color psychology, with the goal of conveying safety, trust, precision, and control—fundamental characteristics for a platform designed for real-time laboratory monitoring. Turquoise serves as the primary color due to its association with safety, stability, balance, and trust. For this reason, it is used for main buttons, interactive elements, and positive states, reinforcing the perception of a reliable and well-controlled system.
 
-El verde se utiliza principalmente para representar estados normales, activos, resueltos y acciones principales, mientras que el rojo identifica alertas críticas que requieren atención inmediata. El amarillo/naranja representa advertencias o situaciones que requieren supervisión. Por otro lado, el azul se emplea para información y elementos complementarios. Los tonos blancos y grises claros conforman la base de la interfaz, proporcionando una apariencia limpia y facilitando la lectura de la información.
+Green is primarily used to represent normal, active, and resolved statuses, as well as main actions, while red identifies critical alerts that require immediate attention. Yellow/orange represents warnings or situations that require monitoring. Blue, on the other hand, is used for informational and supplementary elements. Shades of white and light gray form the basis of the interface, providing a clean look and making the information easy to read.
 
 <img src="assets/color-palette.png">
 
-**Tipografia**
+**Typography**
 
-La tipografía seleccionada para CryoVigil es Plus Jakarta Sans, una fuente sans-serif moderna que se caracteriza por su apariencia limpia, equilibrada y profesional. Su diseño permite mantener una adecuada legibilidad en diferentes tamaños, facilitando la visualización de información relacionada con laboratorios, sensores, métricas y alertas dentro de la plataforma.
+The typeface selected for CryoVigil is Plus Jakarta Sans, a modern sans-serif font characterized by its clean, balanced, and professional appearance. Its design ensures good readability at various sizes, making it easier to view information related to laboratories, sensors, metrics, and alerts within the platform.
 
-Para establecer una jerarquía visual clara, se utilizan diferentes pesos tipográficos de Plus Jakarta Sans según la función del contenido:
+To establish a clear visual hierarchy, different font weights of Plus Jakarta Sans are used depending on the content's function:
 
-- Regular: utilizado para descripciones, textos informativos y contenido secundario.
-- Medium: utilizado en etiquetas, opciones de navegación, filtros y elementos de apoyo.
-- Semi Bold: utilizado en nombres de laboratorios, títulos de secciones y componentes que requieren mayor énfasis.
-- Bold: utilizado en títulos principales, valores destacados, métricas y elementos de mayor jerarquía visual.
+- Regular: used for descriptions, informational texts, and secondary content.
+- Medium: used in labels, navigation options, filters, and supporting elements.
+- Semi Bold: used in laboratory names, section titles, and components that require greater emphasis.
+- Bold: used in main headings, highlighted content, metrics, and elements with higher visual hierarchy.
 
 **Brading**
 
-El nombre CryoVigil representa la identidad de la plataforma y hace referencia a la supervisión continua de las condiciones de los laboratorios. El branding utiliza un isotipo relacionado con un contenedor o elemento de laboratorio, acompañado del nombre CryoVigil.
+The name CryoVigil represents the platform's identity and refers to the continuous monitoring of laboratory conditions. The branding features an isotype resembling a container or laboratory item, accompanied by the name CryoVigil.
 
-La identidad visual emplea principalmente el verde turquesa como color representativo, asociado con seguridad, tecnología y confiabilidad. Este color se mantiene de manera consistente en elementos como el logotipo, botones principales, estados activos e indicadores de funcionamiento.
+The visual identity primarily uses turquoise green as its representative color, associated with safety, technology, and reliability. This color is consistently applied to elements such as the logo, main buttons, active states, and operational indicators.
 
 <img src="assets/Logo.png">
 
 ### 4.1.2. Web Style Guidelines
 
-Esta sección define las pautas de diseño utilizadas para la interfaz web de CryoVigil, tomando como referencia los wireframes y mockups desarrollados para las principales funcionalidades de la plataforma.
+This section defines the design guidelines used for the CryoVigil web interface, based on the wireframes and mockups developed for the platform's main features.
 
 **Layout**
 
-El diseño de la interfaz web de CryoVigil se basa en una estructura organizada mediante una barra lateral de navegación fija y un área principal destinada a la visualización y gestión de la información. Esta distribución permite mantener una navegación consistente entre las diferentes secciones de la plataforma y facilita el acceso a las funcionalidades principales.
+The design of the CryoVigil web interface is based on a structure organized around a fixed navigation sidebar and a main area for viewing and managing information. This layout ensures consistent navigation across the platform’s various sections and facilitates access to key features.
 
-La barra lateral se encuentra ubicada en el lado izquierdo de la interfaz y contiene las opciones principales de navegación:
+The sidebar is located on the left side of the interface and contains the main navigation options:
 
 - Dashboard 
 - Laboratories 
@@ -48,13 +48,12 @@ La barra lateral se encuentra ubicada en el lado izquierdo de la interfaz y cont
 - Reports 
 - Settings
 
-La opción activa se diferencia visualmente mediante un fondo verde claro y elementos en color verde turquesa, permitiendo al usuario identificar fácilmente la sección en la que se encuentra.
+The active option is visually distinguished by a light green background and turquoise elements, allowing the user to easily identify the section they are in.
 
-El área principal de cada pantalla contiene un encabezado con el título y una breve descripción de la sección, acompañado de un buscador ubicado en la parte superior derecha. Debajo de este encabezado, la información se organiza mediante tarjetas, listas, gráficos, indicadores y formularios, dependiendo de la funcionalidad correspondiente.
+The main area of each screen contains a header with the title and a brief description of the section, along with a search bar located in the upper-right corner. Below this header, the information is organized into cards, lists, charts, indicators, and forms, depending on the specific functionality.
 
 **Responsive Design**
 
-La interfaz web de CryoVigil está diseñada considerando la necesidad de adaptarse a diferentes tamaños de pantalla. La estructura visual busca mantener la accesibilidad y legibilidad de la información, reorganizando los componentes de acuerdo con el espacio disponible. 
-
+The CryoVigil web interface is designed to adapt to different screen sizes. The visual layout is intended to maintain the accessibility and readability of the information by rearranging the components according to the available space.
 
  
