@@ -102,3 +102,26 @@
   - The system displays an error message indicating that the order could not be created.
 
 <img src="assets/wireflow-1.jpg">
+
+**Userflow 2**
+
+- **User Person:** Lab Supervisor
+- **User Goal:** As a lab supervisor, I would like to view detailed information about an existing lab.
+- **Happy Path:**
+  - The system displays detailed information about the selected laboratory.
+- **Unhappy Path:**
+  - The system displays a pop-up message indicating that the lab information could not be loaded.
+
+<img src="assets/wireflow-2.jpg">
+
+**Userflow 3**
+
+- **User Person:** Lab Supervisor
+- **User Goal:** As a lab supervisor, I would like to check and review the settings of the sensors installed in a lab to verify that they are properly configured and operational.
+- **Happy Path:**
+  - The system displays a list of sensors to be configured. 
+  - The system displays an alert for sensors that need to be calibrated.
+- **Unhappy Path:**
+  - The system displays a pop-up message indicating that the sensor settings could not be loaded.
+
+<img src="assets/wireflow-3.jpg">
