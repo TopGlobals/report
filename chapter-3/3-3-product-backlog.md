@@ -372,3 +372,7 @@
 </table>
 
 <img src="./assets/product-backlog.png" alt="Product Backlog" style="width: 100%; height: auto;">
+
+Link:
+
+https://trello.com/b/gnBNxhsx/product-backlog 
