@@ -84,9 +84,9 @@
     <tr>
        <td>11</td>
        <td>US27</td>
-       <td>Monitoring Environment Initialization (Create Lab)</td>
-       <td>As a: Laboratory Administrator. I want to: Register a new laboratory by setting up its technical parameters and security policies from the start. So that: I can establish a monitoring infrastructure that complies with specific standards for the samples stored.</td>
-       <td>5</td>
+       <td>Mandatory Logging of Corrective Actions</td>
+       <td>As a: Laboratory Technician. I want to: Formally document measures taken to resolve a thermal anomaly. So that: I can comply with traceability protocols and allow root cause analysis in the future.</td>
+       <td>3</td>
     </tr>
     <tr>
        <td>12</td>
@@ -340,15 +340,29 @@
        <td>As a: Lab Enterprise Admin. I want to: Upload corporate logos and customize email templates for system notifications. So that: System alerts and reports carry recognized company branding.</td>
        <td>2</td>
     </tr>
-    <tr>
+ <tr>
        <td>48</td>
+       <td>US22</td>
+       <td>Batch Configuration of Environmental Thresholds</td>
+       <td>As a: Laboratory Administrator. I want to: Apply temperature threshold settings to multiple storage units simultaneously. So that: I can onboard new equipment faster and maintain uniform safety parameters across similar biological assets.</td>
+       <td>3</td>
+    </tr>
+    <tr>
+       <td>49</td>
+       <td>US23</td>
+       <td>Laboratory Operating Hours and Shift Policy Setup</td>
+       <td>As a: Operations Manager. I want to: Define active laboratory operating hours and shift schedules in the system. So that: Alert escalation workflows automatically adapt to on-call duty staff availability.</td>
+       <td>3</td>
+    </tr>
+ <tr>
+       <td>50</td>
        <td>US49</td>
        <td>In-App System Maintenance and Outage Banners</td>
        <td>As a: System Administrator. I want to: Broadcast system-wide maintenance banners to active users. So that: Personnel are aware of scheduled software updates or temporary server maintenance windows.</td>
        <td>2</td>
     </tr>
-    <tr>
-       <td>49</td>
+<tr>
+       <td>51</td>
        <td>US40</td>
        <td>User Logout</td>
        <td>As a user, I want to log out to protect access to the platform.</td>
