@@ -12,10 +12,27 @@ During a focused design session, the elements were organized following the subdo
 ![Design-Level Event Storming](./assets/event-storming.png)
 Diagram elaborated in Lucidchart.
 
-**Bounded Context 1**
+### Explanation of the Identified Bounded Contexts
 
+The eight bounded contexts that make up the architecture of the solution are described below:
 
-...
+#### 1. Identity & Access Management (Generic)
+
+Manages who can enter CryoVigil and what each user is allowed to do. Its **User** aggregate processes commands such as Sign Up, Sign In, Enable Two-Factor Authentication, Assign Role and Deactivate Account, emitting events like User Signed Up and Role Assigned. A policy locks any session that stays idle past the timeout, and the Active Sessions read model supports the review of logins for security purposes. Its User Signed Up event triggers the creation of the user's profile in Profiles & Preferences.
+
+| Element | Identified in this context |
+|---|---|
+| Aggregates | User |
+| Commands | Sign Up, Sign In, Enable Two-Factor Authentication, Assign Role, Deactivate Account, Lock Session |
+| Domain Events | User Signed Up, User Signed In, Two-Factor Authentication Enabled, Role Assigned, Account Deactivated, Session Locked |
+| Queries (Read Models) | Active Sessions |
+| Policies | Whenever a session stays idle past the timeout, lock the session |
+| Actors / External Systems | Visitor, Lab Personnel, Lab Administrator |
+
+*Related user stories: US04, US31, US32, US40, US41, US42, US43, US45, US46, US48.*
+
+![Bounded Context 1: Identity & Access Management](./assets/bounded-context-1.png)
+Diagram elaborated in Lucidchart.
 
 **Bounded Context 2**
 
