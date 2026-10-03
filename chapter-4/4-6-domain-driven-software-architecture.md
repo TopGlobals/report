@@ -34,30 +34,20 @@ Manages who can enter CryoVigil and what each user is allowed to do. Its **User*
 ![Bounded Context 1: Identity & Access Management](./assets/bounded-context-1.png)
 Diagram elaborated in Lucidchart.
 
-**Bounded Context 2**
+#### 2. Profiles & Preferences (Generic)
 
-<img src="./assets/bounded-context-2.png" alt="Bounded Context 2" style="max-width:100%; height:auto;">
+Stores how each user prefers to work with the platform. When Identity & Access Management reports that a user signed up, a policy creates a default **Profile**. From then on, users update their personal data, switch the interface language between English (en-US) and Spanish (es-419), configure their alert channels and customize their dashboard layout. Each change emits an event, such as Language Changed or Notification Preferences Updated, that refreshes the User Preferences read model used by the rest of the application.
 
-...
+| Element | Identified in this context |
+|---|---|
+| Aggregates | Profile |
+| Commands | Create Profile, Update Profile, Change Language (en-US / es-419), Configure Notification Channels, Customize Dashboard Layout |
+| Domain Events | Profile Created, Profile Updated, Language Changed, Notification Preferences Updated, Dashboard Layout Customized |
+| Queries (Read Models) | User Preferences |
+| Policies | Whenever a user signs up (User Signed Up, from Identity & Access Management), create a default profile |
+| Actors / External Systems | Lab Personnel |
 
-### 4.6.2. Software Architecture Context Diagram
+*Related user stories: US30, US36, US38, US44, US47, US50.*
 
-...
-
-<img src="./assets/context-diagram.png" alt="Context Diagram" style="max-width:100%; height:auto;">
-
-### 4.6.3. Software Architecture Container Diagram
-
-...
-
-<img src="./assets/container-diagram.png" alt="Container Diagram" style="max-width:100%; height:auto;">
-
-### 4.6.4. Software Architecture Component Diagrams
-
-**Bounded Context 1**
-
-<img src="./assets/component-diagram-1.png" alt="Component Diagram 1" style="max-width:100%; height:auto;">
-
-**Bounded Context 2**
-
-<img src="./assets/component-diagram-2.png" alt="Component Diagram 2" style="max-width:100%; height:auto;">
+![Bounded Context 2: Profiles & Preferences](./assets/bounded-context-2.png)
+Diagram elaborated in Lucidchart.
