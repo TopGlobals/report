@@ -87,3 +87,21 @@ Models the physical infrastructure that CryoVigil protects. Through the **Labora
 
 ![Bounded Context 4: Laboratory & Asset Management](./assets/bounded-context-4.png)
 Diagram elaborated in Lucidchart.
+
+#### 5. Cold Chain Monitoring (Core)
+
+The ingestion and analysis core of the platform. The external IoT Sensor Gateway sends telemetry readings that the **Monitored Storage Unit** aggregate records and evaluates against its safe thresholds. Policies decide what each reading means: a value outside the thresholds registers a Thermal Excursion, a deteriorating trend registers a Preventive Trend, and readings back within range normalize the thermal status. Other policies keep this context aligned with Laboratory & Asset Management by creating a monitored unit for every new storage unit, mapping newly linked sensors and updating the thresholds. The readings feed the Real-Time Thermal Dashboard, Historical Temperature Trends and Thermal Heatmap read models, while its detection events are consumed by Sample Tracking and Incident Management.
+
+| Element | Identified in this context |
+|---|---|
+| Aggregates | Monitored Storage Unit |
+| Commands | Record Telemetry Reading, Register Thermal Excursion, Register Deterioration Trend, Normalize Thermal Status, Update Monitoring Thresholds, Create Monitored Unit, Map Sensor |
+| Domain Events | Telemetry Reading Recorded, Thermal Excursion Detected, Preventive Trend Detected, Thermal Status Normalized, Monitoring Thresholds Updated, Monitored Unit Created, Sensor Mapped |
+| Queries (Read Models) | Real-Time Thermal Dashboard, Historical Temperature Trends, Thermal Heatmap |
+| Policies | Whenever a reading is outside the thresholds, register a thermal excursion; whenever the trend approaches a threshold, register a deterioration trend; whenever readings return within the thresholds, normalize the thermal status; whenever thresholds change, a storage unit is registered or a sensor is linked (from Laboratory & Asset Management), update the monitored unit |
+| Actors / External Systems | IoT Sensor Gateway |
+
+*Related user stories: US05, US06, US07, US10, US24, US37.*
+
+![Bounded Context 5: Cold Chain Monitoring](./assets/bounded-context-5.png)
+Diagram elaborated in Lucidchart.
