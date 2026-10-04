@@ -69,3 +69,21 @@ Handles the commercial relationship between CryoVigil and each laboratory. Visit
 
 ![Bounded Context 3: Subscriptions & Billing](./assets/bounded-context-3.png)
 Diagram elaborated in Lucidchart.
+
+#### 4. Laboratory & Asset Management (Supporting)
+
+Models the physical infrastructure that CryoVigil protects. Through the **Laboratory** and **Sensor** aggregates, technical staff register laboratories and their storage units, configure the safe temperature thresholds of each unit, link sensors to them and record sensor calibrations. A daily policy flags every sensor whose calibration is due. Its events feed other contexts: Storage Unit Registered, Sensor Linked and Thresholds Configured keep Cold Chain Monitoring up to date, and Sensor Calibrated is logged by Compliance & Audit. The Laboratory Directory read model supports searching and filtering laboratories.
+
+| Element | Identified in this context |
+|---|---|
+| Aggregates | Laboratory, Sensor |
+| Commands | Register Laboratory, Register Storage Unit, Configure Temperature Thresholds, Link Sensor to Storage Unit, Calibrate Sensor, Flag Calibration Due |
+| Domain Events | Laboratory Registered, Storage Unit Registered, Thresholds Configured, Sensor Linked, Sensor Calibrated, Calibration Due Flagged |
+| Queries (Read Models) | Laboratory Directory |
+| Policies | Every day, whenever a sensor calibration is due, flag the sensor |
+| Actors / External Systems | Technical Staff |
+
+*Related user stories: US11, US12, US13, US14, US20, US21, US29, US33.*
+
+![Bounded Context 4: Laboratory & Asset Management](./assets/bounded-context-4.png)
+Diagram elaborated in Lucidchart.
