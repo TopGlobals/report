@@ -105,3 +105,22 @@ The ingestion and analysis core of the platform. The external IoT Sensor Gateway
 
 ![Bounded Context 5: Cold Chain Monitoring](./assets/bounded-context-5.png)
 Diagram elaborated in Lucidchart.
+
+#### 6. Dashboard & Analytics (Supporting)
+
+Manages the main dashboard of the web application, turning the data produced by other contexts into the views users rely on to supervise the cold chain at a glance. Each user has a **Dashboard** aggregate, created by default when the user signs up, where they add, rearrange (drag, resize and reorder) and remove widgets, change the time range of the charts and reset the layout. This context does not generate operational data: it projects the events published by Cold Chain Monitoring and Incident Management into the Real-Time Thermal Overview, Historical Temperature Trends, Thermal Heatmap, Recent Critical Alerts and Operational KPIs read models. From the Recent Critical Alerts widget, laboratory personnel can acknowledge an alert directly, a command that is executed by Incident Management.
+
+| Element | Identified in this context |
+|---|---|
+| Aggregates | Dashboard |
+| Commands | Create Default Dashboard, Add Widget, Rearrange Widgets, Remove Widget, Change Time Range, Reset Dashboard Layout |
+| Domain Events | Default Dashboard Created, Widget Added, Widgets Rearranged, Widget Removed, Time Range Changed, Dashboard Layout Reset |
+| Queries (Read Models) | User Dashboard Layout, Real-Time Thermal Overview, Historical Temperature Trends, Thermal Heatmap, Recent Critical Alerts, Operational KPIs |
+| Policies | Whenever a user signs up (User Signed Up, from Identity & Access Management), create a default dashboard |
+| Events Consumed | Telemetry Reading Recorded and Thermal Excursion Detected (from Cold Chain Monitoring); Alert Raised, Alert Acknowledged and Incident Resolved (from Incident Management) |
+| Actors / External Systems | Lab Personnel, Technical Staff |
+
+*Related user stories: US05, US06, US07, US08, US09, US37, US47.*
+
+![Bounded Context 6: Dashboard & Analytics](./assets/bounded-context-6.png)
+Diagram elaborated in Lucidchart.
