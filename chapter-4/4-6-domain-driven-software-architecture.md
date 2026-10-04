@@ -51,3 +51,21 @@ Stores how each user prefers to work with the platform. When Identity & Access M
 
 ![Bounded Context 2: Profiles & Preferences](./assets/bounded-context-2.png)
 Diagram elaborated in Lucidchart.
+
+#### 3. Subscriptions & Billing (Generic)
+
+Handles the commercial relationship between CryoVigil and each laboratory. Visitors consult the Plan Catalog and select a plan according to the volume of assets they need to protect. Laboratory administrators then subscribe, and a policy sends the payment request to the external Payment Gateway. The gateway's response either confirms the payment and activates the **Subscription**, or registers a failed payment that, by policy, suspends it. Administrators can also cancel their subscription at any time.
+
+| Element | Identified in this context |
+|---|---|
+| Aggregates | Subscription |
+| Commands | Select Plan, Subscribe, Request Payment, Confirm Payment, Register Failed Payment, Suspend Subscription, Cancel Subscription |
+| Domain Events | Plan Selected, Subscription Requested, Subscription Activated, Payment Failed, Subscription Suspended, Subscription Cancelled |
+| Queries (Read Models) | Plan Catalog |
+| Policies | Whenever a subscription is requested, request the payment; whenever a payment fails, suspend the subscription |
+| Actors / External Systems | Visitor, Lab Administrator, Payment Gateway |
+
+*Related user stories: US02.*
+
+![Bounded Context 3: Subscriptions & Billing](./assets/bounded-context-3.png)
+Diagram elaborated in Lucidchart.
