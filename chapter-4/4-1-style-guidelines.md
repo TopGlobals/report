@@ -56,4 +56,10 @@ The main area of each screen contains a header with the title and a brief descri
 
 The CryoVigil web interface is designed to adapt to different screen sizes. The visual layout is intended to maintain the accessibility and readability of the information by rearranging the components according to the available space.
 
+### 4.1.3. Mobile Style Guidelines
+
+The same visual language used in the desktop experience is preserved in the mobile version of CryoVigil to maintain consistency, clarity, and trust across devices. On small screens, the interface reorganizes into a single-column flow that prioritizes critical actions, such as viewing sensor status, checking alerts, and accessing recent event history. Navigation is simplified with compact menus, touch-friendly controls, and enough spacing to prevent user errors.
+
+Main components such as cards, buttons, titles, and status indicators retain the brand color system and typographic hierarchy established in the design system. This allows users to recognize recurring patterns quickly and reduces the learning curve when moving between the landing page and the application screens. The mobile experience therefore reinforces the same safety-oriented and professional visual identity while adapting to usability standards for responsive web interfaces.
+
  
