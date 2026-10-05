@@ -103,7 +103,41 @@
 
 ### 5.1.2. Source Code Management
 
-...
+**Repositories**
+
+- **Landing Page:** [GitHub](https://github.com/TopGlobals/landing-page)
+- **Frontend Web Application:** [GitHub](https://github.com/TopGlobals/frontend)
+- **RESTful API Web Services:** 
+
+**GitFlow Workflow**
+
+The team applies the GitFlow branching model to structure and manage the product's development lifecycle. The repository maintains two permanent historical branches:
+- `main`: Contains the production-ready code. Commits to this branch only occur when a release is finalized and fully tested.
+- `develop`: Serves as the integration branch for all new features. It reflects the latest delivered development changes for the next release.
+
+To manage parallel development, the following supporting branches and naming conventions are utilized:
+- **Feature Branches:** Created from `develop` and merged back into `develop` once the feature is complete. 
+	- *Convention:* `feature/<short-description>` (e.g., `feature/dashboard`).
+- **Release Branches:** Created from `develop` when preparing for a new production release, allowing for minor bug fixes and metadata preparation. Once ready, they are merged into both `main` and `develop`.
+	- *Convention:* `release/v<semantic-version>` (e.g., `release/v1.0.0`).
+
+**Semantic Versioning**
+
+Releases and tags are named following the Semantic Versioning 2.0.0 guidelines:
+- **MAJOR:** Incompatible API changes or major new product iterations.
+- **MINOR:** Added functionality in a backwards-compatible manner.
+- **PATCH:** Backwards-compatible bug fixes.
+
+**Conventional Commits**
+
+To maintain a readable and automated project history, all commit messages strictly adhere to the Conventional Commits specification. The structure follows `<type>(<scope>): <description>`:
+- `feat:` A new feature for the user.
+- `fix:` A bug fix for the user.
+- `docs:` Documentation-only changes.
+- `style:` Changes that do not affect the meaning of the code (formatting, missing semicolons, etc.).
+- `refactor:` A code change that neither fixes a bug nor adds a feature.
+- `build:` Changes that affect the build system or external dependencies.
+- `chore:` Changes to the build process or auxiliary tools and libraries.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
