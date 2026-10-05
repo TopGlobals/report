@@ -141,7 +141,52 @@ To maintain a readable and automated project history, all commit messages strict
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-...
+To ensure code readability, maintainability, and a unified structure across all repositories, the CryoVigil development 
+team strictly adheres to industry-standard coding conventions. A foundational rule across all products (Landing Page, 
+Web Applications, and Web Services) is that all nomenclature, including variables, classes, methods, comments, and 
+documentation, must be written entirely in English.
+
+The team has adopted the following style guides and conventions according to the technologies used in the software 
+stack, integrating automated formatters to enforce these rules seamlessly.
+
+**HTML & CSS**
+
+For the structural and stylistic layers of the Landing Page and Web Applications, the team follows the HTML Style Guide and Coding Conventions from the Google HTML/CSS Style Guide.
+- **Semantic Structure:** The HTML markup prioritizes semantic tags (e.g., `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`) over generic `<div>` containers to ensure accessibility and proper document outlining.
+- **Formatting:** HTML indentation is strictly set to 2 spaces. Element attributes must be lowercase, and their values must be enclosed in double quotes.
+- **CSS Methodology (BEM):** The team utilizes the Block Element Modifier (BEM) methodology for class naming to facilitate component maintenance, modularity, and CSS scoping.
+- **Naming Convention:** Kebab-case is applied for IDs and class names.
+- **Colors & Units:** CSS variables (Custom Properties) are prioritized for the corporate color palette, and relative units (`rem`, `em`, `%`) are enforced to ensure responsive design adaptability.
+
+**JavaScript & Vue.js**
+
+For the interactive logic and the SPA frontend development, the team complies with the Vue Style Guide, enforcing Priority A (Essential) and Priority B (Strongly Recommended) rules, alongside the Google JavaScript Style Guide and MDN JavaScript guidelines.
+- **Automation (Linters & Formatters):** Code quality and formatting are automatically enforced using ESLint and Prettier. The standard Prettier configuration for the frontend repository mandates the use of semicolons at the end of statements, enforces single quotes instead of double quotes for strings, sets the indentation width to 2 spaces, requires trailing commas wherever valid in ES5 structures (like objects and arrays), and enforces a maximum line length of 100 characters before wrapping the code.
+- **Variables and Functions:** CamelCase is used for naming variables and functions (e.g., `getSensorReading`, `updateInventory`). Naming must be semantic and descriptive, favoring explicit names like `isTemperatureHigh` over ambiguous abbreviations.
+- **Structure:** Variable declarations default to `const`, utilizing `let` exclusively when reassignment is required; the use of `var` is strictly prohibited. Arrow functions are preferred for cleaner syntax and reliable lexical scoping.
+- **Asynchronous Logic:** Promises and API calls must be handled exclusively using `async/await` patterns to prevent callback nesting and improve code readability.
+
+**C# & ASP.NET Core**
+
+For the RESTful Web Services and domain-driven backend logic, the team enforces the C# Coding Conventions and the Microsoft ASP.NET Core Coding Guidelines.
+- **Naming Conventions:** PascalCase is strictly used for Classes, Records, and Methods (e.g., `LaboratoryController`, `CalculateAverageTemperature`). CamelCase is used for local variables and method parameters. Interfaces must be prefixed with a capital "I" (e.g., `ISensorDataRepository`).
+- **Architecture & Structure:** The backend strictly adheres to a layered architecture separating concerns into Controllers, Services, Repositories, Entities, and Data Transfer Objects.
+- **REST API Standards:** Endpoints must use pluralized lowercase nouns (e.g., `/api/v1/laboratories`, `/api/v1/sensors/{id}/logs`). Standard HTTP verbs (GET, POST, PUT, DELETE, PATCH) must be correctly applied to reflect the corresponding CRUD operations.
+- **Properties:** Auto-implemented properties and Entity Framework Core Data Annotations are used to keep models clean and free of boilerplate code.
+
+**Requirements & Specifications**
+
+For acceptance criteria within User Stories and Technical Stories, the team applies the Gherkin Conventions for Readable Specifications.
+- **Language:** Written strictly in English to maintain consistency with the source code and open-source practices.
+- **Structure:** The behavioral structure strictly utilizes the keywords `Scenario:`, `Given`, `When`, `Then`, and `And`.
+- **Clarity:** Steps must describe business behavior and value rather than UI implementation details.
+- **Example:**
+	> **Scenario:** Generating a thermal excursion cross-preventive alert<br>
+	> **Given** the cold storage unit "RF-01" exceeds the 8°C safe threshold<br>
+	> **And** the unit contains biological assets<br>
+	> **When** the telemetry system processes the temperature reading<br>
+	> **Then** a critical push notification should be sent to the assigned technical staff<br>
+	> **And** the incident should be recorded in the immutable database log
 
 ### 5.1.4. Software Deployment Configuration
 
