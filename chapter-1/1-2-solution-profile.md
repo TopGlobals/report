@@ -97,4 +97,4 @@ for sample searching, and technical response times to infrastructure failures re
 
 #### 1.2.2.4. Lean UX Canvas
 
-<img src="./assets/lean-ux-canvas.png" alt="Lean UX Canvas" style="max-width: 100%; height: auto;">
+<img src="./assets/lean-ux-canvas.jpg" alt="Lean UX Canvas" style="max-width: 100%; height: auto;">
