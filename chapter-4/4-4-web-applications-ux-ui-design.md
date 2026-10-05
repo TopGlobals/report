@@ -1,5 +1,7 @@
 ## 4.4. Web Applications UX/UI Design
 
+This section presents the visual and interaction proposal for the CryoVigil web application, covering the main user journeys for the platform's operational activities. The design follows the information architecture and user goals previously defined, while maintaining the consistent design system, accessibility principles, and a responsive approach for desktop and mobile web browsing.
+
 ### 4.4.1. Web Application Wireframes
 
 **Login**

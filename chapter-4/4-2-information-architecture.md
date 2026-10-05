@@ -51,3 +51,9 @@ Navigation on the CrioVigil landing page is designed to keep the user oriented w
   * **Support** `Help Center`, `24/7 Emergency Line`, `Documentation`,`System Status`
   * **Legal:** `FDA 21 CFR Part 11`,`Privacy Policy`, `Terms of Service`, `Security & GDPR`
 * **Social Links:** Standard icon-based links located in the bottom-left corner of the footer for brand engagement.
+
+### 4.2.5. Searching Systems
+
+The search experience in CrioVigil is designed to reduce effort when users need to locate institutional information, alert records, or laboratory entries within large amounts of data. For the public-facing landing page, the search experience is intentionally minimal because navigation is structured by sections and conversion points; the main objective is to guide visitors quickly through the value proposition.
+
+For the web application, the search system is more operational and data-oriented. Users can refine results using filters such as laboratory, date range, severity, and alert type. This allows a lab manager or compliance officer to locate incidents, sensor information, or historical records without manually browsing extensive logs. The result set is presented with clear summary fields and sorting options so that critical information is visible at a glance and the user can move directly to the relevant record or dashboard view.
