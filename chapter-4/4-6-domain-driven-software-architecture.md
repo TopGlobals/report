@@ -124,3 +124,21 @@ Manages the main dashboard of the web application, turning the data produced by 
 
 ![Bounded Context 6: Dashboard & Analytics](./assets/bounded-context-6.png)
 Diagram elaborated in Lucidchart.
+
+#### 7. Incident Management (Core)
+
+Turns detected risks into coordinated human action. Whenever Cold Chain Monitoring or Sample Tracking reports a thermal excursion, a preventive trend, a spatial misplacement or an exposed asset, a policy raises an **Alert** and another notifies the on-duty staff through the external Email Service. For critical alerts, a policy opens an **Incident**. Staff acknowledge alerts and register corrective actions until the incident is resolved, while an escalation policy handles alerts that remain unacknowledged past the time limit. The Alert Feed and Incident History read models support filtering and follow-up.
+
+| Element | Identified in this context |
+|---|---|
+| Aggregates | Alert, Incident |
+| Commands | Raise Alert, Notify On-Duty Staff, Acknowledge Alert, Open Incident, Escalate Incident, Register Corrective Action, Resolve Incident |
+| Domain Events | Alert Raised, Alert Acknowledged, Incident Opened, Incident Escalated, Corrective Action Registered, Incident Resolved |
+| Queries (Read Models) | Alert Feed (filterable), Incident History |
+| Policies | Whenever a risk is detected, raise an alert; whenever an alert is raised, notify the on-duty staff; whenever a critical alert is raised, open an incident; whenever an alert stays unacknowledged past the time limit, escalate the incident |
+| Actors / External Systems | Lab Personnel, Technical Staff, Email Service |
+
+*Related user stories: US08, US09, US17, US18, US25, US26, US27, US34, US35, US39.*
+
+![Bounded Context 7: Incident Management](./assets/bounded-context-7.png)
+Diagram elaborated in Lucidchart.
