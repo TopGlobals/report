@@ -172,3 +172,18 @@ The two target segments are the main users of the platform. **Bioclinical & Labo
 
 Because CryoVigil works at the application layer and is hardware-agnostic, the **IoT Sensor Gateway** and the **RFID Reader Network** are external systems that send temperature readings and RFID tag reads to the platform. CryoVigil also relies on four third-party services: an **Email Service** to deliver alert notifications, a **Corporate Identity Provider** for the single sign-on of enterprise laboratories, a **Payment Gateway** to process subscription payments, and a **Support CRM** where contact requests are followed up.
 
+### **4.6.3. Software Architecture Container Diagrams**
+
+The container diagram shows the high-level elements of CryoVigil's architecture, how responsibilities are distributed among them, the main technology decisions and how they communicate. Following the C4 Model, each container is an independent deployment unit.
+
+![Software Architecture Container Diagram](./assets/container-diagram.png)
+Diagram elaborated in Structurizr.
+
+The solution is made up of four containers:
+
+- **Landing Page (HTML5, CSS3, JavaScript):** a static marketing site that presents the value proposition, the subscription plans and a call to action for each target segment. Each call to action redirects visitors to the matching view of the Web Application, and the contact form submits requests to the Support CRM.
+- **Web Application (Vue, PrimeVue, JavaScript):** a single-page application, designed with Material Design and ARIA accessibility, that delivers the monitoring dashboard, sample tracking, alerts, incident management and compliance reports. It calls the RESTful API over HTTPS/JSON and redirects corporate users to their identity provider for single sign-on.
+- **RESTful API (ASP.NET Core, Entity Framework Core, C#):** implements the business logic organized by bounded context, ingests the data sent by the IoT Sensor Gateway and the RFID Reader Network, integrates the Email Service, the Payment Gateway and the Corporate Identity Provider, and documents its endpoints with OpenAPI (Swagger).
+- **Relational Database (MySQL):** stores the information of every bounded context and is accessed only by the RESTful API through Entity Framework Core.
+
+The Landing Page, the Web Application and the RESTful API support English (en-US) and Spanish (es-419), with English as the default language.
