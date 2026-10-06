@@ -11,3 +11,10 @@ The following class diagram has been designed applying the principles of Domain-
 ![Class Diagram](./assets/class-diagram.png)
 Diagram elaborated in PlantUML.
 
+#### Identity & Access Management
+
+This context is responsible for access control. Its aggregate root, `User`, keeps its credentials and security state private (email, password hash, account status, two-factor authentication, failed sign-in attempts and password expiration) and exposes operations to register failed sign-ins, enable two-factor authentication, assign roles, lock sessions, deactivate the account and link the external identity used for corporate single sign-on. `Session` entities support the inactivity timeout through `IsIdle`, `ExternalIdentity` entities store the provider and subject of each corporate identity, and the `Role` value object groups the permissions of each `RoleType`. When a user signs up, the aggregate publishes `UserSignedUp`. The `IUserRepository` interface extends `IBaseRepository<User>` with searches by email and by external identity.
+
+![Class Diagram: Identity & Access Management](./assets/class-diagram-1.png)
+Diagram elaborated in PlantUML.
+
