@@ -24,3 +24,10 @@ The `profiles` table has a one-to-one relationship with `users` through a unique
 
 ![Database Diagram: Profiles & Preferences](./assets/database-diagram-2.png)
 Diagram elaborated in PlantUML.
+
+#### Subscriptions & Billing
+
+The `subscriptions` table flattens the `Plan` value object into the plan type, price, currency and limit columns, and references its administrator in `users`. The `payments` table stores each payment attempt, with a unique `gateway_reference` that matches the notifications received from the Payment Gateway.
+
+![Database Diagram: Subscriptions & Billing](./assets/database-diagram-3.png)
+Diagram elaborated in PlantUML.
