@@ -25,5 +25,12 @@ This context stores how each user prefers to work with the platform. Its aggrega
 ![Class Diagram: Profiles & Preferences](./assets/class-diagram-2.png)
 Diagram elaborated in PlantUML.
 
+#### Subscriptions & Billing
+
+This context models the commercial relationship with each laboratory. Its aggregate root, `Subscription`, follows a `Plan` value object that defines the plan type, the monthly price as `Money` and the maximum number of storage units and sensors covered, and is paid through `Payment` entities that can be confirmed or failed according to the Payment Gateway's response. The subscription moves through the `Pending`, `Active`, `Suspended` and `Cancelled` states. The `ISubscriptionRepository` interface finds the active subscription of an administrator and the subscription that matches a gateway reference.
+
+![Class Diagram: Subscriptions & Billing](./assets/class-diagram-3.png)
+Diagram elaborated in PlantUML.
+
 
 
