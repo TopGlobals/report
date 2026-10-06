@@ -46,5 +46,12 @@ The telemetry engine of CryoVigil. Its aggregate root, `MonitoredStorageUnit`, i
 ![Class Diagram: Cold Chain Monitoring](./assets/class-diagram-5.png)
 Diagram elaborated in PlantUML.
 
+#### Sample Tracking
+
+This context tracks the location of each biological asset. Its aggregate root, `BiologicalAsset`, is identified by an `RfidTag` value object (its EPC code), is assigned a designated compartment by identifier and keeps its current `AssetLocation`, which is updated with every tag read. When the location does not match the designated compartment, it publishes `SpatialMisplacementDetected`; when its storage unit suffers a thermal excursion, it publishes `AssetExposureFlagged`. The `IBiologicalAssetRepository` interface finds an asset by its RFID tag and lists the assets stored in a storage unit.
+
+![Class Diagram: Sample Tracking](./assets/class-diagram-6.png)
+Diagram elaborated in PlantUML.
+
 
 
