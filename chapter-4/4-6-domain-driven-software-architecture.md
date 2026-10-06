@@ -210,3 +210,10 @@ The Landing Page is organized as a vertical narrative of sections coordinated by
 
 ![Component Diagram: Landing Page](./assets/component-diagram-1.png)
 Diagram elaborated in Structurizr.
+
+#### Container: Web Application
+
+The Web Application follows the structure used in the course: each bounded context is a first-level module that contains its own presentation layer (views and PrimeVue components), application layer (reactive store) and infrastructure layer (API service and assemblers), together with its domain entities. The **Shared (Presentation)** group contains the **App Shell**, which renders the layout, language switcher and footer; the **Router & Auth Guard**, which protects the views that require a session and resolves the deep links coming from the Landing Page; and **i18n**, which provides the en-US and es-419 translations with Vue I18n. The **Shared (Infrastructure)** group contains the **HTTP Client**, an Axios instance that attaches the access token and the Accept-Language header to every request and handles errors through interceptors. The eight bounded context modules call the RESTful API only through this client, and the **IAM Module** redirects corporate users to their identity provider for single sign-on.
+
+![Component Diagram: Web Application](./assets/component-diagram-2.png)
+Diagram elaborated in Structurizr.
