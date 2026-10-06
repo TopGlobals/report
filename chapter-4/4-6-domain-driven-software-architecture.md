@@ -160,3 +160,15 @@ Guarantees the regulatory traceability of the operation. A policy records every 
 
 ![Bounded Context 8: Compliance & Audit](./assets/bounded-context-8.png)
 Diagram elaborated in Lucidchart.
+
+### **4.6.2. Software Architecture Context Diagram**
+
+The system context diagram shows the relationship between CryoVigil and its external actors, providing an overview of the solution and its interactions with the environment. CryoVigil appears as a single software system in the center, surrounded by the people who use it and the external systems it interacts with.
+
+![Software Architecture Context Diagram](./assets/context-diagram.png)
+Diagram elaborated in Lucidchart.
+
+The two target segments are the main users of the platform. **Bioclinical & Laboratory Personnel** monitor the thermal status and location of their samples and respond to alerts, while **Technical & Maintenance Personnel** register laboratories, storage units and sensors and resolve incidents. The **Quality Auditor** reviews the audit trail and generates compliance reports, and the **Visitor** explores the plans and submits contact requests through the landing page.
+
+Because CryoVigil works at the application layer and is hardware-agnostic, the **IoT Sensor Gateway** and the **RFID Reader Network** are external systems that send temperature readings and RFID tag reads to the platform. CryoVigil also relies on four third-party services: an **Email Service** to deliver alert notifications, a **Corporate Identity Provider** for the single sign-on of enterprise laboratories, a **Payment Gateway** to process subscription payments, and a **Support CRM** where contact requests are followed up.
+
