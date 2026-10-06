@@ -67,5 +67,12 @@ The regulatory context. The aggregate root `ActivityLog` keeps, for each laborat
 ![Class Diagram: Compliance & Audit](./assets/class-diagram-8.png)
 Diagram elaborated in PlantUML.
 
+#### Shared Kernel
+
+This context acts as the core of shared types used across the system. It contains the immutable value objects `Temperature`, `TemperatureRange`, `TimeRange` and `EmailAddress`, which encapsulate basic validation logic such as checking whether a temperature is within a range, so that these fundamental concepts are treated the same way in every context. It also defines the generic interface `IBaseRepository<TEntity>`, which every repository interface extends, and the `IUnitOfWork` interface that commits the changes of each use case as a single transaction.
+
+![Class Diagram: Shared Kernel](./assets/class-diagram-9.png)
+Diagram elaborated in PlantUML.
+
 
 
