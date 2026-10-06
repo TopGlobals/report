@@ -217,3 +217,10 @@ The Web Application follows the structure used in the course: each bounded conte
 
 ![Component Diagram: Web Application](./assets/component-diagram-2.png)
 Diagram elaborated in Structurizr.
+
+#### Container: RESTful API — Laboratory Operations
+
+This view covers the bounded contexts that feed CryoVigil with data: Laboratory & Asset Management, Cold Chain Monitoring and Sample Tracking. In **Laboratory & Asset Management**, the **Laboratory Controller** and **Sensor Controller** delegate to the **Laboratory Service** and **Sensor Service**, which manage the `Laboratory` aggregate (with its storage units and thresholds) and the `Sensor` aggregate, while the **Calibration Due Job** flags every day the sensors whose calibration is due. In **Cold Chain Monitoring**, the **Telemetry Controller** receives readings from the IoT Sensor Gateway and the **Telemetry Service** evaluates them against the thresholds of each `MonitoredStorageUnit`; the **Laboratory Events Handler** keeps monitored units, sensor mappings and thresholds in sync with Laboratory & Asset Management. In **Sample Tracking**, the **RFID Controller** receives tag reads and the **Biological Asset Service** manages each `BiologicalAsset`, detecting spatial misplacements, while the **Thermal Events Handler** flags the assets stored in a compartment that suffered a thermal excursion. Detection events are published to the Risk Events Handler of Incident Management, and sensor calibrations to the Compliance Events Handler of Compliance & Audit.
+
+![Component Diagram: RESTful API - Laboratory Operations](./assets/component-diagram-3.png)
+Diagram elaborated in Structurizr.
