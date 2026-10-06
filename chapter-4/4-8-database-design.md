@@ -17,3 +17,10 @@ The `users` table stores the credentials and security state of each account, wit
 
 ![Database Diagram: Identity & Access Management](./assets/database-diagram-1.png)
 Diagram elaborated in PlantUML.
+
+#### Profiles & Preferences
+
+The `profiles` table has a one-to-one relationship with `users` through a unique `user_id`. The `NotificationPreferences` value object is flattened into the notification and summary columns, and the dashboard layout is stored as `JSON`.
+
+![Database Diagram: Profiles & Preferences](./assets/database-diagram-2.png)
+Diagram elaborated in PlantUML.
