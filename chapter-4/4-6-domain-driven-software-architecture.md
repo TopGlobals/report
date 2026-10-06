@@ -224,3 +224,14 @@ This view covers the bounded contexts that feed CryoVigil with data: Laboratory 
 
 ![Component Diagram: RESTful API - Laboratory Operations](./assets/component-diagram-3.png)
 Diagram elaborated in Structurizr.
+
+#### Container: RESTful API — Response & Compliance
+
+This view covers how CryoVigil reacts to risks and preserves traceability. In **Incident Management**, the **Risk Events Handler** raises an `Alert` through the **Alert Service** whenever a thermal excursion, preventive trend, spatial misplacement or exposed asset is detected. Critical alerts open an `Incident` in the **Incident Service**, where staff register corrective actions until the incident is resolved, and the **Escalation Job** escalates critical alerts that remain unacknowledged past the time limit. The **Notification Service** reads each user's preferences through the **Profiles Facade** and sends alert emails through the Email Service. In **Compliance & Audit**, the **Compliance Events Handler** records sensor calibrations, corrective actions and resolved incidents as immutable entries of the `ActivityLog` through the **Audit Service**, which also builds the `ComplianceReport` requested from the **Compliance Report Controller** and serves the history exposed by the **Audit Trail Controller**.
+
+![Component Diagram: RESTful API - Response & Compliance](./assets/component-diagram-4.png)
+Diagram elaborated in Structurizr.
+
+
+
+
