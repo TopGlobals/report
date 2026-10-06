@@ -46,3 +46,9 @@ The `monitored_storage_units` table has a one-to-one relationship with `storage_
 ![Database Diagram: Cold Chain Monitoring](./assets/database-diagram-5.png)
 Diagram elaborated in PlantUML.
 
+#### Sample Tracking
+
+The `biological_assets` table stores each asset with a unique code and a unique RFID EPC, references its designated compartment through a foreign key, and flattens the `AssetLocation` value object into the current storage unit, current compartment and last read columns.
+
+![Database Diagram: Sample Tracking](./assets/database-diagram-6.png)
+Diagram elaborated in PlantUML.
