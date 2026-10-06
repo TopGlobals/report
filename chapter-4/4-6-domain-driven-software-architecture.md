@@ -142,3 +142,21 @@ Turns detected risks into coordinated human action. Whenever Cold Chain Monitori
 
 ![Bounded Context 7: Incident Management](./assets/bounded-context-7.png)
 Diagram elaborated in Lucidchart.
+
+#### 8. Compliance & Audit (Supporting)
+
+Guarantees the regulatory traceability of the operation. A policy records every auditable action, such as sensor calibrations, registered corrective actions and resolved incidents, as an immutable entry in the **Activity Log**, which feeds the Audit Trail read model. Laboratory personnel can generate consolidated **Compliance Reports** for internal quality reviews and external audits, and archive the history of laboratories that are no longer operational.
+
+| Element | Identified in this context |
+|---|---|
+| Aggregates | Activity Log, Compliance Report |
+| Commands | Log Activity, Generate Compliance Report, Archive Laboratory History |
+| Domain Events | Activity Logged, Compliance Report Generated, Laboratory History Archived |
+| Queries (Read Models) | Audit Trail |
+| Policies | Whenever an auditable action happens (Sensor Calibrated, Corrective Action Registered, Incident Resolved), log the activity |
+| Actors / External Systems | Lab Personnel |
+
+*Related user stories: US16, US19, US28.*
+
+![Bounded Context 8: Compliance & Audit](./assets/bounded-context-8.png)
+Diagram elaborated in Lucidchart.
