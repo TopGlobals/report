@@ -60,5 +60,12 @@ Designed for reactive and corrective management. The aggregate root `Alert` reco
 ![Class Diagram: Incident Management](./assets/class-diagram-7.png)
 Diagram elaborated in PlantUML.
 
+#### Compliance & Audit
+
+The regulatory context. The aggregate root `ActivityLog` keeps, for each laboratory, the `ActivityEntry` records of every auditable action; each entry stores an integrity hash so that `VerifyIntegrity` can detect any manipulation. The aggregate root `ComplianceReport` analyzes the entries of a `TimeRange` and is digitally signed once generated. The `IActivityLogRepository` and `IComplianceReportRepository` interfaces find the log and the reports of a laboratory.
+
+![Class Diagram: Compliance & Audit](./assets/class-diagram-8.png)
+Diagram elaborated in PlantUML.
+
 
 
