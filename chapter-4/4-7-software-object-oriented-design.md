@@ -39,5 +39,12 @@ This is the structural context of the domain. The aggregate root `Laboratory` co
 ![Class Diagram: Laboratory & Asset Management](./assets/class-diagram-4.png)
 Diagram elaborated in PlantUML.
 
+#### Cold Chain Monitoring
+
+The telemetry engine of CryoVigil. Its aggregate root, `MonitoredStorageUnit`, is this context's own model of a storage unit: it keeps a copy of the safe range, the current `ThermalStatus` and the identifiers of its sensors. It records each `TelemetryReading`, discarding physically impossible values through `IsPhysicallyPossible`, and keeps a `TemperatureTrend` value object that detects when the temperature approaches a limit. From these rules it publishes `ThermalExcursionDetected` and `PreventiveTrendDetected`, which alert the rest of the system. The `IMonitoredStorageUnitRepository` interface finds a monitored unit by storage unit or by sensor.
+
+![Class Diagram: Cold Chain Monitoring](./assets/class-diagram-5.png)
+Diagram elaborated in PlantUML.
+
 
 
