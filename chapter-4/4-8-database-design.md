@@ -52,3 +52,10 @@ The `biological_assets` table stores each asset with a unique code and a unique 
 
 ![Database Diagram: Sample Tracking](./assets/database-diagram-6.png)
 Diagram elaborated in PlantUML.
+
+#### Incident Management
+
+The `alerts` table flattens the `AlertSource` value object into `source_type` and an indexed `source_reference_id`. Each alert opens at most one record in `incidents`, guaranteed by a unique `alert_id`, which flattens the `EscalationPolicy` value object into its escalation columns. `corrective_actions` stores the actions registered for each incident, the technician who performed them and the URL of their evidence.
+
+![Database Diagram: Incident Management](./assets/database-diagram-7.png)
+Diagram elaborated in PlantUML.
