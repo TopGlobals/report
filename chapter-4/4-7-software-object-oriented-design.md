@@ -18,3 +18,12 @@ This context is responsible for access control. Its aggregate root, `User`, keep
 ![Class Diagram: Identity & Access Management](./assets/class-diagram-1.png)
 Diagram elaborated in PlantUML.
 
+#### Profiles & Preferences
+
+This context stores how each user prefers to work with the platform. Its aggregate root, `Profile`, references its user by `UserId` and manages the personal data, the interface `Language` (English `EnUs` or Spanish `Es419`), the `UiTheme` (including a high-contrast theme for accessibility), the `NotificationPreferences` value object that defines the alert channels and summary frequency, and the `DashboardLayout` value object with the widgets chosen by the user. The `IProfileRepository` interface finds the profile that belongs to a user.
+
+![Class Diagram: Profiles & Preferences](./assets/class-diagram-2.png)
+Diagram elaborated in PlantUML.
+
+
+
