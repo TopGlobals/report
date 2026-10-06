@@ -10,3 +10,10 @@ The following Entity-Relationship Diagram (ERD) represents the physical persiste
 
 ![Database Diagram](./assets/database-diagram.png)
 Diagram elaborated in PlantUML.
+
+#### Identity & Access Management
+
+The `users` table stores the credentials and security state of each account, with a unique email. `roles` and `user_roles` implement the many-to-many relationship between users and roles, with permissions stored as `JSON`. `sessions` supports the inactivity timeout through `last_activity_at` and `locked_at`, and `external_identities` links each user to its corporate identity provider, with a unique combination of provider and subject.
+
+![Database Diagram: Identity & Access Management](./assets/database-diagram-1.png)
+Diagram elaborated in PlantUML.
