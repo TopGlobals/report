@@ -59,3 +59,10 @@ The `alerts` table flattens the `AlertSource` value object into `source_type` an
 
 ![Database Diagram: Incident Management](./assets/database-diagram-7.png)
 Diagram elaborated in PlantUML.
+
+#### Compliance & Audit
+
+Each laboratory has one `activity_logs` record, guaranteed by a unique `laboratory_id`, which contains its `activity_entries`, each with an indexed `target_id` and an integrity hash. `compliance_reports` flattens the `TimeRange` value object into `period_start` and `period_end`, and the `report_entries` link table relates each report to the entries it analyzes.
+
+![Database Diagram: Compliance & Audit](./assets/database-diagram-8.png)
+Diagram elaborated in PlantUML.
