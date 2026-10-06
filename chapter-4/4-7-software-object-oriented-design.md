@@ -32,5 +32,12 @@ This context models the commercial relationship with each laboratory. Its aggreg
 ![Class Diagram: Subscriptions & Billing](./assets/class-diagram-3.png)
 Diagram elaborated in PlantUML.
 
+#### Laboratory & Asset Management
+
+This is the structural context of the domain. The aggregate root `Laboratory` contains its `StorageUnit` entities, each with its safe temperature range and divided into `Compartment` entities where biological assets are stored. `Sensor` is a separate aggregate root because it has its own lifecycle: it is linked to a storage unit by identifier, keeps its `CalibrationRecord` history and can be flagged when its calibration is due. The context publishes `StorageUnitRegistered`, `ThresholdsConfigured`, `SensorLinked` and `SensorCalibrated`, which keep Cold Chain Monitoring and Compliance & Audit up to date. The `ILaboratoryRepository` and `ISensorRepository` interfaces add searches by name, by serial number and for sensors with a calibration due.
+
+![Class Diagram: Laboratory & Asset Management](./assets/class-diagram-4.png)
+Diagram elaborated in PlantUML.
+
 
 
