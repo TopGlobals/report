@@ -203,3 +203,10 @@ For the internal design of each **Bounded Context** of the RESTful API, a **Doma
 Bounded contexts communicate through domain events, shown as "Publishes … to" relationships toward the handler of the receiving context, and through the Profiles Facade when one context needs data owned by another.
 
 ---
+
+#### Container: Landing Page
+
+The Landing Page is organized as a vertical narrative of sections coordinated by the **Top Navigation**, which links to each section, hosts the language switcher and exposes the Request Demo and Sign In buttons. The **i18n Script** translates every section between English (en-US) and Spanish (es-419), with English as the default language. The **Hero Section**, **Segment CTAs Section** and **Pricing Section** redirect visitors to the matching view of the Web Application, while the **Contact Form** validates and submits demo and sales requests to the Support CRM. The **Footer** links to the **Terms of Service Page**, written according to the ACM/IEEE and CIP codes of ethics.
+
+![Component Diagram: Landing Page](./assets/component-diagram-1.png)
+Diagram elaborated in Structurizr.
