@@ -187,3 +187,19 @@ The solution is made up of four containers:
 - **Relational Database (MySQL):** stores the information of every bounded context and is accessed only by the RESTful API through Entity Framework Core.
 
 The Landing Page, the Web Application and the RESTful API support English (en-US) and Spanish (es-419), with English as the default language.
+
+### **4.6.4. Software Architecture Components Diagrams**
+
+This section presents the component diagrams of CryoVigil's software architecture. They break each container down into its main structural blocks, describing their responsibilities, technologies and interactions. Five diagrams are presented: one for the Landing Page, one for the Web Application and three for the RESTful API. The RESTful API is split into three views grouped by business flow (laboratory operations, response and compliance, and identity and platform), so each view stays readable while every bounded context keeps its own labeled boundary. The Relational Database is not decomposed, since in the C4 Model a database is a data store and has no components.
+
+For the internal design of each **Bounded Context** of the RESTful API, a **Domain-Oriented Layered Architecture** has been applied. As shown in the diagrams, the flow keeps a high level of cohesion:
+
+- **Controllers (Interfaces layer):** expose the REST endpoints consumed by the Web Application and by the external devices.
+- **Application Services (Application layer):** orchestrate the use cases by processing commands and queries over the domain aggregates.
+- **Event Handlers and Background Jobs (Application layer):** implement the policies identified in the Design-Level EventStorming, reacting to domain events published by other bounded contexts or to scheduled checks.
+- **Outbound Services and Facades:** encapsulate the integration with third-party services (email, payments and single sign-on) and expose data to other bounded contexts through an anti-corruption layer.
+- **Repositories (Infrastructure layer):** abstract persistence with Entity Framework Core, keeping the domain model independent of the database technology.
+
+Bounded contexts communicate through domain events, shown as "Publishes … to" relationships toward the handler of the receiving context, and through the Profiles Facade when one context needs data owned by another.
+
+---
