@@ -53,5 +53,12 @@ This context tracks the location of each biological asset. Its aggregate root, `
 ![Class Diagram: Sample Tracking](./assets/class-diagram-6.png)
 Diagram elaborated in PlantUML.
 
+#### Incident Management
+
+Designed for reactive and corrective management. The aggregate root `Alert` records the `AlertSource` that originated it (a thermal excursion, a preventive trend, a spatial misplacement or an asset exposure), its severity and its status, and determines through `IsUnattended` whether it has exceeded the response time. The aggregate root `Incident` is opened for a critical alert, follows an `EscalationPolicy` and requires at least one `CorrectiveAction` with evidence before it can be resolved. When a corrective action is registered or an incident is resolved, it publishes `CorrectiveActionRegistered` and `IncidentResolved`. The `IAlertRepository` and `IIncidentRepository` interfaces list unacknowledged alerts and find the incident of an alert.
+
+![Class Diagram: Incident Management](./assets/class-diagram-7.png)
+Diagram elaborated in PlantUML.
+
 
 
