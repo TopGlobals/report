@@ -31,3 +31,10 @@ The `subscriptions` table flattens the `Plan` value object into the plan type, p
 
 ![Database Diagram: Subscriptions & Billing](./assets/database-diagram-3.png)
 Diagram elaborated in PlantUML.
+
+#### Laboratory & Asset Management
+
+The `laboratories` table has a one-to-many relationship with `storage_units`, which store their safe temperature range as columns and are divided into `compartments`. `sensors` have a unique serial number and reference the storage unit they are linked to, which is optional until the sensor is installed, and `calibration_records` stores the calibration history of each sensor.
+
+![Database Diagram: Laboratory & Asset Management](./assets/database-diagram-4.png)
+Diagram elaborated in PlantUML.
