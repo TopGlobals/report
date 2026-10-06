@@ -232,6 +232,11 @@ This view covers how CryoVigil reacts to risks and preserves traceability. In **
 ![Component Diagram: RESTful API - Response & Compliance](./assets/component-diagram-4.png)
 Diagram elaborated in Structurizr.
 
+#### Container: RESTful API — Identity, Profiles & Subscriptions
 
+This view covers the platform capabilities shared by every bounded context. In **Identity & Access Management**, the **Authentication Controller** and **User Controller** delegate to the **User Service**, which manages the `User` aggregate, uses the **Token & Hashing Service** to issue JWT access tokens and hash passwords, and validates corporate sign-in against the Corporate Identity Provider through the **SSO Service**. The **Authorization Middleware** validates the access token of every request and enforces roles and the inactivity timeout, while the shared **Localization Middleware** resolves the culture of each request (en-US or es-419) from the Accept-Language header. In **Profiles & Preferences**, the **User Signed Up Handler** creates a default `Profile` when a user signs up, and the **Profiles Facade** exposes language and notification preferences to other bounded contexts. In **Subscriptions & Billing**, the **Subscription Service** manages the `Subscription` aggregate, requests payments through the **Payment Gateway Adapter** and receives their results through the **Payment Webhook Controller**.
+
+![Component Diagram: RESTful API - Identity, Profiles & Subscriptions](./assets/component-diagram-5.png)
+Diagram elaborated in Structurizr.
 
 
