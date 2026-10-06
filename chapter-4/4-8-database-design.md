@@ -38,3 +38,11 @@ The `laboratories` table has a one-to-many relationship with `storage_units`, wh
 
 ![Database Diagram: Laboratory & Asset Management](./assets/database-diagram-4.png)
 Diagram elaborated in PlantUML.
+
+#### Cold Chain Monitoring
+
+The `monitored_storage_units` table has a one-to-one relationship with `storage_units` through a unique `storage_unit_id`, and keeps its own copy of the safe range and thermal status. `monitored_unit_sensors` maps the sensors of each monitored unit, and `telemetry_readings`, the table with the highest volume of the system, stores each reading with an index on `taken_at` to speed up historical and trend queries.
+
+![Database Diagram: Cold Chain Monitoring](./assets/database-diagram-5.png)
+Diagram elaborated in PlantUML.
+
