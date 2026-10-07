@@ -27,9 +27,9 @@
 
 ### 2.2.2. Interview Logs
 
-**Segment 1, Bioclinical and Laboratory Personnel**
+**Interviews URL:** [OneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919096_upc_edu_pe/IQBJvHMwx0xxQaTD_Q6YvVxIARPBtgo3dDfx3tVp4uDV4HE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=a07os5)
 
-**Interview URL:** [Segment 1 Interviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919096_upc_edu_pe/IQDAbtfBJ2yqQ4n8Bh6Mh7uJAc8qxe-e-bJM3l--LyJt7dY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VJWvw2)
+**Segment 1, Bioclinical and Laboratory Personnel**
 
 1. Interviewee 1
 
@@ -38,8 +38,8 @@
 - **Name**: Abdul Muchica
 - **Age**: 30 years old
 - **Residency**: Puno
-- **Starts at**: ...
-- **Duration**: ...
+- **Starts at**: 00:00
+- **Duration**: 14:04
 
 Abdul Muchica is a 30-year-old single biologist residing in Puno. He works as a bachelor's degree professional in a 
 private laboratory within the microbiology and clinical laboratory specialty, where he stands out for his punctuality 
@@ -66,8 +66,8 @@ master's or doctoral degree.
 - **Name**: Fernando Palomino
 - **Age**: 22
 - **Residency**: Puno
-- **Starts at**: ...
-- **Duration**: ...
+- **Starts at**: 14:04
+- **Duration**: 7:32
 
 Fernando Palomino is a 22-year-old single intern residing in Puno, who works in the microbiology area of the Manuel 
 Núñez Butrón Hospital. He defines himself as an active person who likes to get involved in his area, specializing in 
@@ -94,8 +94,8 @@ goal is to finish his internship optimally and enter the workforce.
 - **Name**: Gabriela Quispe
 - **Age**: 24
 - **Residency**: Puno
-- **Starts at**: ...
-- **Duration**: ...
+- **Starts at**: 21:36
+- **Duration**: 9:26
 
 Gabriela Quispe is a 24-year-old single microbiologist, based in Puno, with one year of experience in a private clinic 
 laboratory. She describes herself as a very organized person, a fundamental characteristic to manage the stress caused 
@@ -116,8 +116,6 @@ relocated. Her professional goal is to expand the availability of complex analys
 
 **Segment 2: Technical and Maintenance Personnel**
 
-**Interview URL:** [Segment 2 Interviews](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919096_upc_edu_pe/IQAL8CDI7NjQSaeKuQKsIG4gAYPgXLsXI8H7giWUuzwtTy8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=excitg)
-
 1. Interviewee 1
 
 <img src="./assets/segment2-interviewee1.png" alt="Interviewee 1" style="max-width: 50%; height: auto;">
@@ -125,8 +123,8 @@ relocated. Her professional goal is to expand the availability of complex analys
 - **Name**: Fabrizio Palomino
 - **Age**: 24
 - **Residency**: Puno
-- **Starts at**: ...
-- **Duration**: ...
+- **Starts at**: 31:02
+- **Duration**: 7:48
 
 Fabrizio Palomino, 25 years old and single, resides in Puno and works as a CAS technician at the Manuel Núñez Butrón 
 Hospital. He works in the warehouse and culture media preparation area, highlighting his proactivity in taking on 
@@ -151,8 +149,8 @@ notifications informing him if the equipment status is optimal or if he must go 
 - **Name**: Grisel Lima
 - **Age**: 25
 - **Residency**: Puno
-- **Starts at**: ...
-- **Duration**: ...
+- **Starts at**: 38:50
+- **Duration**: 6:28
 
 Grisel Lima is a 25-year-old single laboratory technician, residing in Puno, with two years of experience in the 
 hospital sector. Her main work strength is her resilience to endure daily work amidst a large influx and overload of 
@@ -169,22 +167,6 @@ much more accessible and faster monitoring.
 - **Brands**: Thermo, Biobase
 - **Devices**: PC, Smartphone
 - **Browsers**: Chrome, Edge
-
-3. Interviewee 3
-
-<img src="./assets/segment2-interviewee3.png" alt="Interviewee 3" style="max-width: 50%; height: auto;">
-
-- **Name**: ...
-- **Age**: ...
-- **Residency**: ...
-- **Starts at**: ...
-- **Duration**: ...
-
-...
-
-- **Brands**: ...
-- **Devices**: ...
-- **Browsers**: ...
 
 ### 2.2.3. Interview Analysis
 
