@@ -23,11 +23,11 @@ Teacher
 
 Team
 <br>
-<strong>...</strong>
+<strong>TopGlobals</strong>
 <br>
 Project
 <br>
-<strong>...</strong>
+<strong>CryoVigil</strong>
 
 <strong>Members</strong>
 <br>
@@ -40,24 +40,24 @@ Project
 	</thead>
 	<tbody>
 		<tr>
-			<td>...</td>
-			<td>...</td>
+			<td>U201919096</td>
+			<td>Arizabal Condori, Jean Niels</td>
 		</tr>
 		<tr>
-			<td>...</td>
-			<td>...</td>
+			<td>U202623624</td>
+			<td>Homola, Tomas</td>
 		</tr>
 		<tr>
-			<td>...</td>
-			<td>...</td>
+			<td>U20241B645</td>
+			<td>Linares Rodriguez, Franco Orlando</td>
 		</tr>
 		<tr>
-			<td>...</td>
-			<td>...</td>
+			<td>U201911393</td>
+			<td>Padilla Merino, Mauricio Jared</td>
 		</tr>
 		<tr>
-			<td>...</td>
-			<td>...</td>
+			<td>U202423262</td>
+			<td>Reyes Munoz, Joaquin Leonardo</td>
 		</tr>
 	</tbody>
 </table>
