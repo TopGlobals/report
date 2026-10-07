@@ -6,19 +6,17 @@ Report Repository URL: [GitHub](www.github.com)
 
 ...
 
-- Member 1
+- Arizabal Condori, Jean Niels
 	- ...
 
-- Member 2
+- Homola, Tomas
 	- ...
 
-- Member 3
+- Padilla Merino, Mauricio Jared
 	- ...
 
-- Member 4
+- Reyes Munoz, Joaquin Leonardo
 	- ...
 
-- Member 5
-	- ...
 
 <img src="./assets/contributors.jpg" alt="Contributors">
